@@ -282,6 +282,16 @@ a:hover {
   color: #ffffff !important;
 }
 
+@keyframes heartbeat {
+  0%,
+  100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+}
+
 a.special:not(.button) {
   text-decoration: none;
   border-bottom: 0;
@@ -292,6 +302,7 @@ a.special:not(.button) {
   letter-spacing: 0.1em;
   margin: 0 0 2em 0;
   text-transform: uppercase;
+  animation: heartbeat 1s infinite;
 }
 
 a.special:not(.button):before {
