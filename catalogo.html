@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Supertrucks Productos</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <script src="assets/js/products.js" defer></script>
+    <link rel="stylesheet" href="https://rsms.me/inter/inter.css" />
+  </head>
+  <body>
+    <div
+      class="bg-white absolute inset-y-0 w-full bg-[url('images/Untitled.png')] bg-no-repeat lg:block"
+    >
+      <div>
+        <!-- Mobile filter dialog (Off-canvas) -->
+        <div
+          id="filtersPanel"
+          class="relative z-40 lg:hidden hidden"
+          role="dialog"
+          aria-modal="true"
+        >
+          <div class="fixed inset-0 bg-black/25 backdrop" aria-hidden="true"></div>
+
+          <div class="fixed inset-0 z-40 flex">
+            <div
+              class="relative ml-auto flex size-full max-w-xs flex-col overflow-y-auto bg-white pt-4 pb-6 shadow-xl translate-x-full transition-transform duration-300 ease-in-out"
+              id="filtersContent"
+            >
+              <div class="flex items-center justify-between px-4">
+                <h2 class="text-lg font-medium text-gray-900">Filtros</h2>
+                <button
+                  id="closeFiltersBtn"
+                  type="button"
+                  class="relative -mr-2 flex size-10 items-center justify-center rounded-md bg-white p-2 text-gray-400 hover:bg-gray-50 focus:ring-2 focus:ring-indigo-500 focus:outline-hidden"
+                >
+                  <span class="absolute -inset-0.5"></span>
+                  <span class="sr-only">Close menu</span>
+                  <svg
+                    class="size-6"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    aria-hidden="true"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M6 18 18 6M6 6l12 12"
+                    />
+                  </svg>
+                </button>
+              </div>
+              <div class="p-4 flex items-center">
+                <div class="relative flex items-center">
+                  <input
+                    id="search-input-mobile"
+                    type="text"
+                    placeholder="Buscar..."
+                    class="p-2 pr-10 border border-gray-300 rounded-md w-64"
+                  />
+                  <button
+                    id="search-button-mobile"
+                    type="button"
+                    class="absolute right-2 text-gray-400 hover:text-gray-500"
+                  >
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 20 20"
+                      width="20"
+                      height="20"
+                      fill="currentColor"
+                      aria-hidden="true"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        d="M9 3.5a5.5 5.5 0 1 0 0 11 5.5 5.5 0 0 0 0-11ZM2 9a7 7 0 1 1 12.452 4.391l3.328 3.329a.75.75 0 1 1-1.06 1.06l-3.329-3.328A7 7 0 0 1 2 9Z"
+                        clip-rule="evenodd"
+                      ></path>
+                    </svg>
+                  </button>
+                </div>
+              </div>
+              <form class="lg:block p-2">
+                <h3 class="sr-only">Categories</h3>
+
+                <div class="border-b border-gray-200 py-6">
+                  <h3 class="-my-3 flow-root">
+                    <button
+                      type="button"
+                      class="flex w-full items-center justify-between bg-white py-3 text-sm text-gray-400 hover:text-gray-500"
+                      aria-controls="filter-section-0-mobile"
+                      aria-expanded="false"
+                    >
+                      <span class="font-medium text-gray-900">Marca</span>
+                      <span class="ml-6 flex items-center">
+                        <svg
+                          class="size-5"
+                          viewBox="0 0 20 20"
+                          fill="currentColor"
+                          aria-hidden="true"
+                        >
+                          <path
+                            d="M10.75 4.75a.75.75 0 0 0-1.5 0v4.5h-4.5a.75.75 0 0 0 0 1.5h4.5v4.5a.75.75 0 0 0 1.5 0v-4.5h4.5a.75.75 0 0 0 0-1.5h-4.5v-4.5Z"
+                          />
+                        </svg>
+                        <svg
+                          class="size-5"
+                          viewBox="0 0 20 20"
+                          fill="currentColor"
+                          aria-hidden="true"
+                        >
+                          <path
+                            fill-rule="evenodd"
+                            d="M4 10a.75.75 0 0 1 .75-.75h10.5a.75.75 0 0 1 0 1.5H4.75A.75.75 0 0 1 4 10Z"
+                            clip-rule="evenodd"
+                          />
+                        </svg>
+                      </span>
+                    </button>
+                  </h3>
+                  <div class="pt-6" id="filter-section-0-mobile">
+                    <div class="space-y-4" id="brand-list-mobile"></div>
+                  </div>
+                </div>
+
+                <div class="border-b border-gray-200 py-6">
+                  <h3 class="-my-3 flow-root">
+                    <button
+                      type="button"
+                      class="flex w-full items-center justify-between bg-white py-3 text-sm text-gray-400 hover:text-gray-500"
+                      aria-controls="filter-section-1-mobile"
+                      aria-expanded="false"
+                    >
+                      <span class="font-medium text-gray-900">Categorias</span>
+                      <span class="ml-6 flex items-center">
+                        <svg
+                          class="size-5"
+                          viewBox="0 0 20 20"
+                          fill="currentColor"
+                          aria-hidden="true"
+                        >
+                          <path
+                            d="M10.75 4.75a.75.75 0 0 0-1.5 0v4.5h-4.5a.75.75 0 0 0 0 1.5h4.5v4.5a.75.75 0 0 0 1.5 0v-4.5h4.5a.75.75 0 0 0 0-1.5h-4.5v-4.5Z"
+                          />
+                        </svg>
+                        <svg
+                          class="size-5"
+                          viewBox="0 0 20 20"
+                          fill="currentColor"
+                          aria-hidden="true"
+                        >
+                          <path
+                            fill-rule="evenodd"
+                            d="M4 10a.75.75 0 0 1 .75-.75h10.5a.75.75 0 0 1 0 1.5H4.75A.75.75 0 0 1 4 10Z"
+                            clip-rule="evenodd"
+                          />
+                        </svg>
+                      </span>
+                    </button>
+                  </h3>
+                  <div class="pt-6" id="filter-section-1-mobile">
+                    <div class="space-y-4" id="category-list-mobile"></div>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+
+        <main class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+          <div
+            class="flex items-baseline justify-between border-b border-gray-200 pt-24 pb-6"
+          >
+            <h1 class="text-4xl font-bold tracking-tight text-gray-900"></h1>
+            <img
+              src="/images/logo super truck_page-0001 (1).png"
+              style="width: 120px"
+              class="block md:hidden"
+            />
+            <button id="openFiltersBtn" class="lg:hidden">
+              <svg
+                class="size-5"
+                aria-hidden="true"
+                viewBox="0 0 20 20"
+                fill="bg-gray-50"
+                data-slot="icon"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M2.628 1.601C5.028 1.206 7.49 1 10 1s4.973.206 7.372.601a.75.75 0 0 1 .628.74v2.288a2.25 2.25 0 0 1-.659 1.59l-4.682 4.683a2.25 2.25 0 0 0-.659 1.59v3.037c0 .684-.31 1.33-.844 1.757l-1.937 1.55A.75.75 0 0 1 8 18.25v-5.757a2.25 2.25 0 0 0-.659-1.591L2.659 6.22A2.25 2.25 0 0 1 2 4.629V2.34a.75.75 0 0 1 .628-.74Z"
+                  clip-rule="evenodd"
+                />
+              </svg>
+            </button>
+            <div class="hidden md:flex items-center">
+              <div class="relative flex items-center">
+                <input
+                  id="search-input-desktop"
+                  type="text"
+                  placeholder="Buscar..."
+                  class="p-2 pr-10 border border-gray-300 rounded-md w-64"
+                />
+                <button
+                  id="search-button-desktop"
+                  type="button"
+                  class="absolute right-2 text-gray-400 hover:text-gray-500"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 20 20"
+                    width="20"
+                    height="20"
+                    fill="currentColor"
+                    aria-hidden="true"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M9 3.5a5.5 5.5 0 1 0 0 11 5.5 5.5 0 0 0 0-11ZM2 9a7 7 0 1 1 12.452 4.391l3.328 3.329a.75.75 0 1 1-1.06 1.06l-3.329-3.328A7 7 0 0 1 2 9Z"
+                      clip-rule="evenodd"
+                    ></path>
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <section aria-labelledby="products-heading" class="pt-6 pb-24">
+            <div class="grid grid-cols-1 gap-x-8 gap-y-10 lg:grid-cols-4">
+              <!-- Filters desktop -->
+              <form class="hidden lg:block">
+                <div class="border-b border-gray-200 py-6">
+                  <h3 class="-my-3 flow-root">
+                    <button
+                      type="button"
+                      class="flex w-full items-center justify-between bg-white py-3 text-sm text-gray-400 hover:text-gray-500"
+                      aria-controls="filter-section-0-desktop"
+                      aria-expanded="false"
+                    >
+                      <span class="font-medium text-gray-900">Marca</span>
+                      <span class="ml-6 flex items-center">
+                        <svg class="size-5" viewBox="0 0 20 20" fill="currentColor">
+                          <path
+                            d="M10.75 4.75a.75.75 0 0 0-1.5 0v4.5h-4.5a.75.75 0 0 0 0 1.5h4.5v4.5a.75.75 0 0 0 1.5 0v-4.5h4.5a.75.75 0 0 0 0-1.5h-4.5v-4.5Z"
+                          />
+                        </svg>
+                        <svg class="size-5" viewBox="0 0 20 20" fill="currentColor">
+                          <path
+                            fill-rule="evenodd"
+                            d="M4 10a.75.75 0 0 1 .75-.75h10.5a.75.75 0 0 1 0 1.5H4.75A.75.75 0 0 1 4 10Z"
+                            clip-rule="evenodd"
+                          />
+                        </svg>
+                      </span>
+                    </button>
+                  </h3>
+                  <div class="pt-6" id="filter-section-0-desktop">
+                    <div class="space-y-4" id="brand-list-desktop"></div>
+                  </div>
+                </div>
+
+                <div class="border-b border-gray-200 py-6">
+                  <h3 class="-my-3 flow-root">
+                    <button
+                      type="button"
+                      class="flex w-full items-center justify-between bg-white py-3 text-sm text-gray-400 hover:text-gray-500"
+                      aria-controls="filter-section-1-desktop"
+                      aria-expanded="false"
+                    >
+                      <span class="font-medium text-gray-900">Categorias</span>
+                      <span class="ml-6 flex items-center">
+                        <svg class="size-5" viewBox="0 0 20 20" fill="currentColor">
+                          <path
+                            d="M10.75 4.75a.75.75 0 0 0-1.5 0v4.5h-4.5a.75.75 0 0 0 0 1.5h4.5v4.5a.75.75 0 0 0 1.5 0v-4.5h4.5a.75.75 0 0 0 0-1.5h-4.5v-4.5Z"
+                          />
+                        </svg>
+                        <svg class="size-5" viewBox="0 0 20 20" fill="currentColor">
+                          <path
+                            fill-rule="evenodd"
+                            d="M4 10a.75.75 0 0 1 .75-.75h10.5a.75.75 0 0 1 0 1.5H4.75A.75.75 0 0 1 4 10Z"
+                            clip-rule="evenodd"
+                          />
+                        </svg>
+                      </span>
+                    </button>
+                  </h3>
+                  <div class="pt-6" id="filter-section-1-desktop">
+                    <div class="space-y-4" id="category-list-desktop"></div>
+                  </div>
+                </div>
+              </form>
+
+              <!-- Product grid -->
+              <div class="lg:col-span-3">
+                <div class="bg-white">
+                  <div class="mx-auto max-w-2xl px-4 sm:px-6 lg:max-w-7xl lg:px-8">
+                    <div
+                      class="relative max-w-[250px] w-full bg-[url('/images/nnnnn.svg')] bg-no-repeat bg-center bg-contain h-16 flex items-center justify-center"
+                    >
+                      <h2
+                        class="text-2xl font-bold tracking-tight text-gray-900 mt-[-6px]"
+                      >
+                        Productos
+                      </h2>
+                    </div>
+
+                    <div
+                      id="product-grid"
+                      class="grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 xl:gap-x-8"
+                    ></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </main>
+      </div>
+    </div>
+  </body>
+</html>

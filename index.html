@@ -22,8 +22,73 @@
     <link rel="icon" type="image/svg+xml" href="/images/truck-svgrepo-com.png" />
     <link rel="stylesheet" href="assets/css/main.css" />
     <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+    <style>
+      body,
+      html {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+        width: 100%;
+      }
+
+      .splash-screen {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: black;
+        z-index: 9999;
+        visibility: visible;
+        animation: pulse 2s ease-out forwards;
+      }
+
+      @keyframes pulse {
+        0% {
+          transform: scale(1);
+        }
+        50% {
+          transform: scale(1.1);
+        }
+        100% {
+          transform: scale(1);
+        }
+      }
+      .floating-btn {
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        background-color: #797979;
+        border: none;
+        cursor: pointer;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: transform 0.2s ease, background-color 0.2s ease;
+      }
+
+      .floating-btn:hover {
+        background-color: #333;
+        transform: scale(1.1);
+      }
+
+      .floating-icon {
+        width: 30px;
+        height: 30px;
+      }
+    </style>
   </head>
-  <body class="is-preload">
+  <body class="is-preload" style="visibility: hidden">
+    <div class="splash-screen">
+      <img class="logo-img" src="/images/logo super truck_page-0001 (1).png" alt="Logo" />
+    </div>
     <!-- Page Wrapper -->
     <div id="page-wrapper">
       <!-- Header -->
@@ -62,10 +127,6 @@
             <h1 class="invisible">repuestos para camiones</h1>
             <h1 class="invisible">vehiculos pesados</h1>
             <h1 class="invisible">reparaciones para camiones</h1>
-            <a
-              href="https://docs.google.com/forms/d/e/1FAIpQLSfkGl56GWEkEpmK8QniZ9MNfUR0ANrbbq6jiq_yIpcGS4iowA/viewform?usp=sf_link"
-              >"Formulario de Sorteo del Día del Padre - PRESIONE AQUI!!"</a
-            >
             <h1 class="invisible">reparaciones</h1>
             <h1 class="invisible">repuestos</h1>
           </div>
@@ -77,17 +138,17 @@
         <!-- One -->
         <section id="one" class="wrapper spotlight style1">
           <div class="inner">
-            <a href="#" class="image"
-              ><img src="images/backg.png" alt="Super Trucks - Sobre Nosotros"
+            <a href="/catalogo.html" class="image">
+              <img src="images/repuestos.jpg" alt="Super Trucks - Repuestos"
             /></a>
             <div class="content">
-              <h2 class="major">Sobre Nosotros</h2>
+              <h2 class="major">Todo en Repuestos - Accede a nuestro catalogo</h2>
               <p>
-                Nos especializamos en la Venta de Repuestos y en la Reparación Integral
-                del Servicio Pesado en Oberá, Misiones. Con años de experiencia en el
-                sector, nos dedicamos a ofrecer repuestos de alta calidad para vehículos
-                pesados, asegurando que cada componente cumpla con los más altos
-                estándares de rendimiento y durabilidad.
+                La satisfacción del cliente es nuestra prioridad. Nos esforzamos por
+                ofrecer un servicio personalizado y profesional, garantizando que cada
+                compra se realice de manera eficiente y confiable. Ya sea que necesites
+                una pieza específica o una revisión completa de tu vehículo, estamos aquí
+                para ayudarte.
               </p>
             </div>
           </div>
@@ -97,16 +158,24 @@
         <section id="two" class="wrapper alt spotlight style2">
           <div class="inner">
             <a href="#" class="image"
-              ><img src="images/repuestos.jpg" alt="Super Trucks - Repuestos"
+              ><img src="images/backg.png" alt="Super Trucks - Sobre Nosotros"
             /></a>
             <div class="content">
-              <h2 class="major">Todo en Repuestos</h2>
+              <h2 class="major">Sobre Nosotros</h2>
               <p>
-                La satisfacción del cliente es nuestra prioridad. Nos esforzamos por
-                ofrecer un servicio personalizado y profesional, garantizando que cada
-                compra se realice de manera eficiente y confiable. Ya sea que necesites
-                una pieza específica o una revisión completa de tu vehículo, estamos aquí
-                para ayudarte.
+                En Oberá, Misiones, somos una empresa especializada en repuestos y
+                reparaciones para vehículos pesados. Con años de experiencia en el rubro,
+                ayudamos a transportistas, mecánicos y empresas a mantener sus camiones y
+                maquinaria en perfectas condiciones. Ofrecemos una gran variedad de
+                repuestos de alta calidad, trabajando con marcas reconocidas a nivel
+                internacional como Suspentech, Universal, Unick, Uniflex y HD Embragues.
+                También somos agentes oficiales de marcas nacionales como Neumacarg,
+                Mecansur, Super Freno y Porpora, lo que nos permite brindar atención
+                directa y productos originales con respaldo garantizado. Nos enfocamos en
+                ofrecer un servicio ágil, confiable y profesional, entendiendo las
+                exigencias del servicio pesado y acompañando a cada cliente con soluciones
+                a medida. Ya sea que busques repuestos para camiones o necesites una
+                reparación integral, estamos para ayudarte.
               </p>
             </div>
           </div>
@@ -151,7 +220,10 @@
             <section class="features">
               <article>
                 <a class="image"
-                  ><img src="images/pic09.png" alt="Asesoramiento Técnico"
+                  ><img
+                    src="images/sn.webp"
+                    alt="Asesoramiento Técnico"
+                    style="height: 280px"
                 /></a>
                 <h3 class="major">ASESORAMIENTO TÉCNICO</h3>
                 <p>
@@ -223,19 +295,19 @@
             o servicios, no dudes en contactarnos. Puedes llamarnos, enviarnos un correo
             electrónico o visitarnos en nuestra ubicación en Oberá, Misiones.
           </p>
-          <form method="post" action="#">
+          <form action="https://formspree.io/f/mwpbwvaa" method="POST">
             <div class="fields">
               <div class="field">
                 <label for="name">Nombre</label>
-                <input type="text" name="name" id="name" />
+                <input type="text" name="name" id="name" required />
               </div>
               <div class="field">
                 <label for="email">Email</label>
-                <input type="email" name="email" id="email" />
+                <input type="email" name="email" id="email" required />
               </div>
               <div class="field">
                 <label for="message">Mensaje</label>
-                <textarea name="message" id="message" rows="4"></textarea>
+                <textarea name="message" id="message" rows="4" required></textarea>
               </div>
             </div>
             <ul class="actions">
@@ -253,11 +325,14 @@
               <a href="https://wa.me/543755648787">(54) 3755 648787</a>
             </li>
             <li class="icon solid fa-envelope">
-              <a href="#">supertrucks@gmail.com</a>
+              <a href="mailto:supertrucks.repuestos@gmail.com"
+                >supertrucks.repuestos@gmail.com</a
+              >
+              <a href="mailto:supertruckssrl@gmail.com">supertruckssrl@gmail.com</a>
             </li>
-            <li class="icon brands fa-facebook-f">
+            <!-- <li class="icon brands fa-facebook-f">
               <a href="#">facebook.com/supertrucksrepuestosycamiones</a>
-            </li>
+            </li> -->
             <li class="icon brands fa-instagram">
               <a
                 href="https://www.instagram.com/supertrucksrepuestosycamiones?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
@@ -283,9 +358,34 @@
           <img class="img" src="images/whatsapp.png" alt="Whatsapp" />
         </a>
       </div>
+      <a href="/catalogo.html">
+        <button class="floating-btn">
+          <svg
+            class="floating-icon"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 15 15"
+          >
+            <path
+              d="m.5.5.6 2m0 0 2.4 8h11v-6a2 2 0 0 0-2-2zm11.4 12a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm-8-1a1 1 0 1 1 2 0 1 1 0 0 1-2 0Z"
+              stroke="#FFF"
+              stroke-width="1"
+              fill="none"
+            />
+          </svg>
+        </button>
+      </a>
     </div>
 
     <!-- Scripts -->
+    <script>
+      window.onload = function () {
+        setTimeout(() => {
+          // Oculta el splash screen y muestra el body
+          document.querySelector(".splash-screen").style.visibility = "hidden";
+          document.body.style.visibility = "visible"; // Muestra el contenido del body
+        }, 2000); // Duración de 2 segundos
+      };
+    </script>
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/js/jquery.scrollex.min.js"></script>
     <script src="assets/js/browser.min.js"></script>

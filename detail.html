@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Supertrucks Productos</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <script src="assets/js/products.js" defer></script>
+    <script src="assets/js/detail.js" defer></script>
+    <link rel="stylesheet" href="https://rsms.me/inter/inter.css" />
+  </head>
+  <body><button
+  id="back-button"
+  class="fixed top-4 left-4 z-50 flex items-center justify-center w-10 h-10 bg-gray-800 hover:bg-gray-700 text-white rounded-full shadow-lg"
+  title="Volver"
+>
+  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-6 h-6">
+    <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 19.5L8.25 12l7.5-7.5" />
+  </svg>
+</button>
+    <div
+      class="bg-white p-8 absolute inset-y-0 w-full bg-[url('images/Untitled.png')] bg-no-repeat lg:block"
+    >
+      <div
+        class="mx-auto grid max-w-2xl grid-cols-1 items-center gap-x-8 gap-y-16 px-4 py-24 sm:px-6 sm:py-32 lg:max-w-7xl lg:grid-cols-2 lg:px-8"
+      >
+        <!-- TEXTOS -->
+        <div>
+          <h2
+            id="product-name"
+            class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl"
+          >
+            <!-- nombre producto -->
+          </h2>
+          <p id="product-description" class="mt-4 text-gray-500">
+            <!-- descripcion -->
+          </p>
+
+          <dl
+            class="mt-16 grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 sm:gap-y-16 lg:gap-x-8"
+          >
+            <div class="border-t border-gray-200 pt-4">
+              <dt class="font-medium text-gray-900">Marca</dt>
+              <dd id="product-brand" class="mt-2 text-sm text-gray-500"></dd>
+            </div>
+            <div class="border-t border-gray-200 pt-4">
+              <dt class="font-medium text-gray-900">Código</dt>
+              <dd id="product-code" class="mt-2 text-sm text-gray-500"></dd>
+            </div>
+            <div class="border-t border-gray-200 pt-4">
+              <dt class="font-medium text-gray-900">Categoria</dt>
+              <dd class="mt-2 text-sm text-gray-500">
+                <dd id="product-group" class="mt-2 text-sm text-whie-500"></dd>
+              </dd>
+            </div>
+            <div class="border-t border-white pt-4"></div>
+            <div class="border-t border-gray-200 pt-4">
+              <dt class="font-medium text-gray-900">Adquirir Producto</dt>
+              <dd class="mt-2 text-sm text-gray-500">
+                Hace click en el siguiente boton para comunicarte con ventas!
+              </dd>
+            </div>
+            <div class="border-t border-gray-200 pt-4">
+                <div id="wa-btn">
+    <a
+  id="whatsapp-link"
+  class="whatsapp-btn"
+  href="#"
+  target="_blank"
+>
+  <img class="img" src="images/whatsapp.png" alt="Whatsapp" />
+</a>
+      </div>
+            </div>
+          </dl>
+        </div>
+
+        <!-- IMAGEN -->
+        <div class="w-full max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg mx-auto">
+          <img
+            id="product-image"
+            src=""
+            alt=""
+            class="w-full h-auto object-contain rounded-lg bg-gray-100"
+          />
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

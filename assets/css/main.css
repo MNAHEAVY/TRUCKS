@@ -188,9 +188,8 @@ html {
 }
 
 body {
-  background-color: #161616;
   background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)),
-    url(../../images/re.jpg);
+    url(../../images/vo.png);
   background-size: auto, cover;
   background-attachment: fixed, fixed;
   background-position: center, center;
@@ -3608,7 +3607,7 @@ body.is-menu-visible #menu .inner {
         rgba(46, 49, 65, 0.8),
         rgba(46, 49, 65, 0.8)
       ),
-      url(../../images/re.jpg);
+      url(../../images/vo.png);
     margin-bottom: -2.5em;
   }
 
@@ -4125,6 +4124,25 @@ body.is-preload #banner p {
     padding: 2em 1.5em 0.1em 1.5em;
   }
 }
+.splash-screen {
+  overflow: hidden;
+  text-align: center;
+  padding: 1rem;
+}
+
+.logo-img {
+  max-width: 100%;
+  height: auto;
+  filter: drop-shadow(0px 0px 3.5px white);
+}
+
+/* Opcional: tamaño adaptable según el viewport */
+@media (min-width: 768px) {
+  .logo-img {
+    height: 80px;
+    filter: drop-shadow(0px 0px 3.5px white);
+  }
+}
 
 /* Footer */
 
@@ -4283,5 +4301,5 @@ body.is-preload #banner p {
 }
 .invisible {
   color: transparent;
-  margin: 0
+  margin: 0;
 }
