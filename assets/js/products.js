@@ -1844,7 +1844,419 @@ const productos = [
     brand: null,
     group: "SUSPENSIÓN",
     image: "images/169.jpg",
+  },{
+    id: 2000,
+    code: "001",
+    name: "Amortiguadores de cabina",
+    description: "Amortiguadores de cabina para Scania Serie 4 y 5.",
+    brand: "Scania",
+    group: "Amortiguadores de cabina",
+    image: "imagesb/001.jpg"
   },
+  {
+    id: 2001,
+    code: "003",
+    name: "Amortiguadores de cabina",
+    description: "Amortiguadores de cabina para Scania Serie 3.",
+    brand: "Scania",
+    group: "Amortiguadores de cabina",
+    image: "imagesb/003.jpg"
+  },
+  {
+    id: 2002,
+    code: "009",
+    name: "Conjunto resorte neumático de cabina",
+    description: "Conjunto de resorte neumático de cabina para Scania Serie 4 y 5.",
+    brand: "Scania",
+    group: "Resortes",
+    image: "imagesb/009.jpg"
+  },
+  {
+    id: 2003,
+    code: "013 AG",
+    name: "Conjunto resorte neumático cabina trasero",
+    description: "Conjunto de resorte neumático de cabina trasera para Scania Serie 3.",
+    brand: "Scania",
+    group: "Resortes",
+    image: "imagesb/013ag.jpg"
+  },
+  {
+    id: 2004,
+    code: "014 AG",
+    name: "Resorte neumático de cabina trasero",
+    description: "Resorte neumático de cabina trasero para Scania Serie 3 - R (1991–1998).",
+    brand: "Scania",
+    group: "Resortes",
+    image: "imagesb/014ag.jpg"
+  },
+  {
+    id: 2005,
+    code: "015 AG",
+    name: "Resorte neumático de cabina",
+    description: "Resorte neumático de cabina delantero y trasero para Scania Serie 4 y 5 (P/G/R 2004–2011).",
+    brand: "Scania",
+    group: "Resortes",
+    image: "imagesb/015ag.jpg"
+  },
+  {
+    id: 2006,
+    code: "035 AG",
+    name: "Suspensión de eje con resorte de aire",
+    description: "Suspensión de eje con resorte de aire compatible con Facchini / HBZ.",
+    brand: "Facchini/HBZ",
+    group: "Suspensión de eje con resorte de aire",
+    image: "imagesb/035ag.jpg"
+  },
+  {
+    id: 2007,
+    code: "057",
+    name: "Conjunto resorte neumático cabina trasero",
+    description: "Conjunto de resorte neumático de cabina trasero para Scania Serie 4 y 5.",
+    brand: "Scania",
+    group: "Resortes",
+    image: "imagesb/057.jpg"
+  },
+  {
+    id: 2008,
+    code: "063 AG",
+    name: "Amortiguadores de cabina trasero/horizontal",
+    description: "Amortiguadores de cabina trasero/horizontal para Volvo FH (1993–2014) y FM (2000–2014).",
+    brand: "Volvo",
+    group: "Amortiguadores de cabina",
+    image: "imagesb/063ag.jpg"
+  },
+  {
+    id: 2009,
+    code: "064 K",
+    name: "Suspensión de eje con resorte de aire",
+    description: "Suspensión de eje con resorte de aire para Volvo FH / FM (2004–2014).",
+    brand: "Volvo",
+    group: "Suspensión de eje con resorte de aire",
+    image: "imagesb/064k.jpg"
+  },
+  {
+    id: 2010,
+    code: "095",
+    name: "Conjunto resorte de bobina de cabina trasero",
+    description: "Conjunto de resorte de bobina de cabina trasero para Volvo FM (2000–2014) y FMX (2011–2014).",
+    brand: "Volvo",
+    group: "Resortes de bobina de cabina",
+    image: "imagesb/095.jpg"
+  },
+  {
+    id: 2011,
+    code: "1001",
+    name: "Manguera del intercooler",
+    description: "Manguera del intercooler para Mercedes-Benz 1620/1720/OF1721/1726/1723K/1723S/1938.",
+    brand: "Mercedes-Benz",
+    group: "Mangueras",
+    image: "imagesb/1001.jpg"
+  },
+  {
+    id: 2012,
+    code: "1004",
+    name: "Manguera del intercooler",
+    description: "Manguera del intercooler para Iveco Nuevo Stralis / Stralis / Nuevo Trakker.",
+    brand: "Iveco",
+    group: "Mangueras",
+    image: "imagesb/1004.jpg"
+  },
+  {
+    id: 2013,
+    code: "1005",
+    name: "Manguera del intercooler",
+    description: "Manguera del intercooler para Mercedes-Benz Axor.",
+    brand: "Mercedes-Benz",
+    group: "Mangueras",
+    image: "imagesb/1005.jpg"
+  },
+  {
+    id: 2014,
+    code: "1006",
+    name: "Manguera de refrigeracion",
+    description: "Manguera de refrigeracion para Mercedes-Benz actros.",
+    brand: "Mercedes-Benz",
+    group: "Mangueras",
+    image: "imagesb/1006.jpg"
+  },
+  {
+    id: 2015,
+    code: "1007",
+    name: "Manguera de conexion del intercooler",
+    description: "Manguera del intercooler para para Mercedes-Benz actros.",
+    brand: "Mercedes-Benz",
+    group: "Mangueras",
+    image: "imagesb/1007.jpg"
+  },
+  {
+    id: 2016,
+    code: "1010",
+    name: "Manguera de turbina",
+    description: "Manguera de turbina para Scania Serie 3 (111/112/113/143).",
+    brand: "Scania",
+    group: "Mangueras",
+    image: "imagesb/1010.jpg"
+  },
+  {
+    id: 2017,
+    code: "1011",
+    name: "Manguera del intercooler",
+    description: "Manguera del intercooler P96.",
+    brand: "Scania",
+    group: "Mangueras",
+    image: "imagesb/1011.jpg"
+  },
+  {
+    id: 2018,
+    code: "1016",
+    name: "Manguera de conexión de turbina",
+    description: "Manguera de conexión de turbina para carga pesada (Scania).",
+    brand: "Scania",
+    group: "Mangueras",
+    image: "imagesb/1016.jpg"
+  },
+  {
+    id: 2019,
+    code: "1017",
+    name: "Manguera del intercooler",
+    description: "Manguera del intercooler carga 1316/1317/1415/1721.",
+    brand: "Scania",
+    group: "Mangueras",
+    image: "imagesb/1017.jpg"
+  },
+  {
+    id: 2020,
+    code: "1018",
+    name: "Manguera del intercooler",
+    description: "Manguera del intercooler para Iveco EuroTech / EuroTrakker.",
+    brand: "Iveco",
+    group: "Mangueras",
+    image: "imagesb/1018.jpg"
+  },
+  {
+    id: 2021,
+    code: "1021",
+    name: "Manguera del intercooler",
+    description: "Manguera del intercooler 112/113/142.",
+    brand: "Mercedes-Benz",
+    group: "Mangueras",
+    image: "imagesb/1021.jpg"
+  },
+  {
+    id: 2022,
+    code: "1023",
+    name: "Manguera de conexión de turbina",
+    description: "Manguera de conexión de turbina para Ford Cargo.",
+    brand: "Ford",
+    group: "Mangueras",
+    image: "imagesb/1023.jpg"
+  },
+  {
+    id: 2023,
+    code: "1026",
+    name: "Manguera del intercooler",
+    description: "Manguera del intercooler para Iveco Nuevo Stralis / Stralis / Nuevo Trakker.",
+    brand: "Iveco",
+    group: "Mangueras",
+    image: "imagesb/1026.jpg"
+  },
+  {
+    id: 2024,
+    code: "1027",
+    name: "Manguera del intercooler",
+    description: "Manguera del intercooler para Iveco EuroTech.",
+    brand: "Iveco",
+    group: "Mangueras",
+    image: "imagesb/1027.jpg"
+  },
+  {
+    id: 2025,
+    code: "1028",
+    name: "Manguera del intercooler",
+    description: "Manguera del intercooler OH1625/ OH1630/ OH1628/O400.",
+    brand: "Mercedes-Benz",
+    group: "Mangueras",
+    image: "imagesb/1028.jpg"
+  },
+    {
+    id: 20252,
+    code: "106",
+    name: "Conjunto resorte de bobina de cabina delantero",
+    description: "Conjunto de resorte de BOBINA DE CABINA MERCEDES-BENZ AXOR ROAD TODOS LOS SERIE 20 2006 A 2023 DELANTERO.",
+    brand: "Mercedes-Benz",
+    group: "Mangueras",
+    image: "imagesb/106.jpg"
+  },
+     {
+    id: 20232,
+    code: "132",
+    name: "Conjunto resorte de bobina de cabina trasero",
+    description: "Conjunto de resorte neumático de cabina para SCANIA SERIE 5 - P/G/R 2012 A 2018 TRASERO.",
+    brand: "Mercedes-Benz",
+    group: "Mangueras",
+    image: "imagesb/132.jpg"
+  },
+  {
+    id: 2026,
+    code: "137",
+    name: "Suspensión de eje con resorte de aire",
+    description: "Suspensión de eje con resorte de aire para Volvo FH / FM (2004–2014).",
+    brand: "Volvo",
+    group: "Suspensión de eje con resorte de aire",
+    image: "imagesb/137.jpg"
+  },
+  {
+    id: 20262,
+    code: "137k",
+    name: "Suspensión de eje con resorte de aire (sin base)",
+    description: "Suspensión de eje con resorte de aire sin base para Volvo FH / FM (2004–2014).",
+    brand: "Volvo",
+    group: "Suspensión de eje con resorte de aire",
+    image: "imagesb/137k.jpg"
+  },
+  {
+    id: 2027,
+    code: "172",
+    name: "Conjunto resorte neumático cabina delantero",
+    description: "Conjunto de resorte neumático de cabina delantero scania serie 5 - G/R 2012 A 2018.",
+    brand: "Scania",
+    group: "Resortes",
+    image: "imagesb/172.jpg"
+  },
+  {
+    id: 2028,
+    code: "173b",
+    name: "Resorte neumático cabina delantero",
+    description: "RESORTE NEUMÁTICO DE CABINA MERCEDES-BENZ ACTROS 2010 AL 2020 (EXCEPTO ACTROS NUEVOS) DELANTERO.",
+    brand: "Mercedes-Benz",
+    group: "Suspensión",
+    image: "imagesb/173b.jpg"
+  },
+  {
+    id: 2029,
+    code: "174B",
+    name: "Resorte neumático de cabina trasero (repuesto)",
+    description: "Resorte neumático de cabina trasero (repuesto) para Mercedes-Benz Axor Serie 20 (desde 2006), Actros hasta 2020 (excepto Axor 1933) y Atego cabina dormitorio desde 2013.",
+    brand: "Mercedes-Benz",
+    group: "Resortes",
+    image: "imagesb/174b.jpg"
+   },
+  {
+    id: 2030,
+    code: "174",
+    name: "Conjunto resorte neumático cabina trasero",
+    description: "Conjunto de resorte neumático de cabina trasero para Mercedes-Benz Axor Serie 20 (2006–2023, excepto Axor 1933), Actros (2010–2020, excepto nuevo), Atego Cabina-Litera (2013+).",
+    brand: "Mercedes-Benz",
+    group: "Resortes",
+    image: "imagesb/174.jpg"
+   },
+  {
+    id: 2031,
+    code: "184",
+    name: "Conjunto resorte neumático cabina delantero",
+    description: "Conjunto de resorte neumático de cabina delantero para Volvo FH (2004–2014).",
+    brand: "Volvo",
+    group: "Resortes",
+    image: "imagesb/184.jpg"
+   },
+  {
+    id: 2032,
+    code: "186",
+    name: "Conjunto resorte neumático cabina trasero",
+    description: "Conjunto de resorte neumático de cabina trasero para Volvo FH (2004–2014).",
+    brand: "Volvo",
+    group: "Resortes",
+    image: "imagesb/186.jpg"
+  },
+  {
+    id: 2036,
+    code: "211",
+    name: "Amortiguadores de cabina delantero neumático",
+    description: "Amortiguadores de cabina delantero neumático para Scania Serie 5 R Highline/Streamline (2012–2018).",
+    brand: "Scania",
+    group: "Amortiguadores de cabina",
+    image: "imagesb/211.jpg"
+  },  {
+    id: 20365,
+    code: "213",
+    name: "Amortiguadores de cabina delantero neumático",
+    description: "Amortiguadores de cabina delantero neumático para Scania Serie 5 - G/R (2012–2018).",
+    brand: "Scania",
+    group: "Amortiguadores de cabina",
+    image: "imagesb/213.jpg"
+  },
+  {
+    id: 2037,
+    code: "337",
+    name: "Conjunto resorte neumático cabina traser",
+    description: "Conjunto de resorte neumático de cabina trasero para Iveco Hi Way (2013–2023).",
+    brand: "Iveco",
+    group: "Resortes",
+    image: "imagesb/337.jpg"
+  },
+  {
+    id: 2038,
+    code: "3011",
+    name: "Conexión 180º M10 x P1.00mm - 6mm",
+    description: "Conexión 180º M10 x P1.00mm - 6mm para muelle neumático de cabina.",
+    brand: "Universal",
+    group: "Conexiones y accesorios",
+    image: "imagesb/3011.jpg"
+  },
+  {
+    id: 2039,
+    code: "853",
+    name: "Resorte enroscado (suspensión de eje)",
+    description: "Resorte enroscado para eje de suspensión Randon/Jost/Suspensys/Rodofort. OEM Randon/Jost: AD00076J00 / 212100337.",
+    brand: "Randon/Jost/Suspensys/Rodofort",
+    group: "Resortes enroscados (suspensión de eje)",
+    image: "imagesb/853.jpg"
+  },
+  {
+    id: 2040,
+    code: "343",
+    name: "Conjunto resorte de bobina de cabina delantero",
+    description: "Conjunto de resorte de bobina de cabina delantero para Ford Cargo Sleeper Cab (2011–2019).",
+    brand: "Ford",
+    group: "Resortes de bobina de cabina",
+    image: "imagesb/343.jpg"
+  },
+  {
+    id: 2041,
+    code: "833",
+    name: "Resorte enroscado (suspensión eje)",
+    description: "Resorte enroscado para suspensión de eje Facchini/HBZ.",
+    brand: "Facchini/HBZ",
+    group: "Resortes enroscados (suspensión de eje)",
+    image: "imagesb/833.jpg"
+  },
+  {
+    id: 2042,
+    code: "362",
+     name: "Conjunto resorte neumatico de cabina delantero",
+    description: "Conjunto de resorte neumático de cabina delantero para Iveco Hi Way (2013–2023).",
+    brand: "Ford",
+    group: "Resortes ",
+    image: "imagesb/362.jpg"
+  },
+ {
+    id: 2044,
+    code: "858",
+    name: "Resorte enroscado (suspensión de eje)",
+    description: "Resorte enroscado para Randon/Suspensys/Guerra/America/Ibero (eje suspensor).",
+    brand: "Randon/Suspensys/Guerra/America/Ibero",
+    group: "Resortes",
+    image: "imagesb/858.jpg"
+  },
+  {
+    id: 2045,
+    code: "870",
+    name: "Resorte enroscado (suspensión eje)",
+    description: "Resorte enroscado para suspensión de eje (Facchini/Rodofort).",
+    brand: "Facchini/Rodofort",
+    group: "Resortes",
+    image: "imagesb/870.jpg"
+  }
 ];
 
 // // Referencias globales
@@ -2229,7 +2641,7 @@ function initFilters() {
       .map(
         (brand) => `
         <label class="flex items-center">
-          <input type="checkbox" name="brand" value="${brand}" class="mr-2">
+          <input type="checkbox" name=brand value="${brand}" class="mr-2">
           ${brand}
         </label>
       `
@@ -2257,7 +2669,7 @@ function filtrarProductos() {
   const combinedQuery = queries.find((q) => q.trim().length > 0) || "";
 
   const marcasSeleccionadas = Array.from(
-    document.querySelectorAll('input[name="brand"]:checked')
+    document.querySelectorAll('input[name=brand]:checked')
   ).map((cb) => cb.value);
 
   const categoriasSeleccionadas = Array.from(
@@ -2294,7 +2706,7 @@ searchButtons.forEach((btn) => {
 
 // Eventos filtros
 document.addEventListener("change", (e) => {
-  if (e.target.name === "brand" || e.target.name === "category") {
+  if (e.target.name === brand || e.target.name === "category") {
     filtrarProductos();
 
     // Cerrar panel mobile si está visible
@@ -2302,7 +2714,7 @@ document.addEventListener("change", (e) => {
       closeBtn?.click();
     }
   }
-});
+}); 
 
 // Off-canvas panel (mobile)
 const openBtn = document.getElementById("openFiltersBtn");
