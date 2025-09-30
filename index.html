@@ -1,25 +1,45 @@
 <!DOCTYPE html>
 <html lang="es">
   <head>
-    <title>SuperTrucks - Repuestos y Reparaciones para Camiones</title>
     <meta charset="utf-8" />
     <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, user-scalable=no"
+    name="viewport"
+    content="width=device-width, initial-scale=1, user-scalable=no"
     />
-    <meta
-      name="description"
-      content="Super Trucks: Venta de repuestos y reparaciones para vehículos pesados en Oberá, Misiones. Ofrecemos repuestos de alta calidad y servicios profesionales. repuestos para camiones Obera, reparaciones para camiones Obera"
-    />
-    <meta
-      name="keywords"
-      content="supertrucks, repuestos, camiones, reparaciones, super, trucks, repairs, spare parts, vehículos pesados, repuestos para camiones, Oberá, reparaciones para camiones, repuestos para vehículos pesados, reparaciones para vehículos pesados"
-    />
-    <meta
+    <title>SuperTrucks - Repuestos y Reparaciones para Camiones</title>
+ 
+    <title>SuperTrucks SRL – Repuestos y Reparaciones para Camiones en Oberá</title>
+    <meta name="description" content="SuperTrucks SRL ofrece repuestos y servicios de reparación para camiones y vehículos pesados en Oberá, Misiones. Calidad profesional y atención personalizada." />
+    <link rel="canonical" href="https://supertrucksrl.com/" />
+  <meta
       name="google-site-verification"
       content="2cr9Q0bkPZnFxA3AqIPBPIdAOSGpo4GRMkMud5J-fq8"
     />
-    <link rel="icon" type="image/svg+xml" href="/images/truck-svgrepo-com.png" />
+        <!-- JSON-LD LocalBusiness / AutoRepair -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "AutoRepair",
+      "name": "SuperTrucks SRL",
+      "image": "https://supertrucksrl.com/images/logo-supertrucks.png",
+      "telephone": "+54 3755 648787",
+      "email": "supertrucks.repuestos@gmail.com",
+      "url": "https://supertrucksrl.com/",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Sierra de la Victoria 81",
+        "addressLocality": "Oberá",
+        "addressRegion": "Misiones",
+        "postalCode": "3360",
+        "addressCountry": "AR"
+      },
+     "sameAs": [
+        "https://www.instagram.com/supertrucksrepuestosycamiones"
+        "https://www.google.com/maps/place/Super+Trucks+-+Repuestos+para+Camiones/@-27.4931912,-55.1040106,17z/data=!3m1!4b1!4m6!3m5!1s0x94f8f5cba598b56b:0x268405d5b6b0854b!8m2!3d-27.493196!4d-55.1014357!16s%2Fg%2F11w3gmt25p?entry=ttu&g_ep=EgoyMDI1MDkyNC4wIKXMDSoASAFQAw%3D%3D"
+      ]
+    }
+    </script>
+    <link rel="icon" type="image/png" href="/images/truck-svgrepo-com.png" />
     <link rel="stylesheet" href="assets/css/main.css" />
     <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
     <style>
@@ -31,10 +51,9 @@
         width: 100%;
       }
 
-      .splash-screen {
+      .splash-overlay {
         position: fixed;
-        top: 0;
-        left: 0;
+        inset: 0;
         width: 100%;
         height: 100%;
         display: flex;
@@ -42,10 +61,9 @@
         align-items: center;
         background-color: black;
         z-index: 9999;
-        visibility: visible;
         animation: pulse 2s ease-out forwards;
       }
-
+ .splash-overlay.hidden{ display:none; }
       @keyframes pulse {
         0% {
           transform: scale(1);
@@ -85,17 +103,18 @@
       }
     </style>
   </head>
-  <body class="is-preload" style="visibility: hidden">
-    <div class="splash-screen">
-      <img class="logo-img" src="/images/logo super truck_page-0001 (1).png" alt="Logo" />
+
+  <body class="is-preload">
+    <div id="splash" class="splash-overlay" role="status" aria-live="polite">
+      <img class="logo-img" src="/images/logo super truck_page-0001 (1).png" alt="Logo SuperTrucks" />
     </div>
     <!-- Page Wrapperr -->
     <div id="page-wrapper">
       <!-- Header -->
-      <header id="header" class="alt">
-        <h1><a href="index.html">supertrucks</a></h1>
-        <nav>
-          <a href="#menu">Menu</a>
+   <header id="header" class="alt">
+        <h1><a href="/">SuperTrucks SRL</a></h1>
+        <nav aria-label="Principal">
+          <a href="#menu">Menú</a>
         </nav>
       </header>
 
@@ -121,15 +140,10 @@
             <img
               class="shadow"
               src="images/logo super truck_page-0001 (1).png"
-              alt="Logo Super Trucks"
-            />
-            <h1 class="invisible">supertrucks super trucks Camión</h1>
-            <h1 class="invisible">repuestos para Camión camiones</h1>
-            <h1 class="invisible">vehiculos pesados Camión</h1>
-            <h1 class="invisible">reparaciones para Camión camiones</h1>
-            <h1 class="invisible">Camión</h1>
-            <h1 class="invisible">reparaciones</h1>
-            <h1 class="invisible">repuestos</h1>
+        alt="Logo SuperTrucks" width="300" height="120" />
+            <!-- Visible H1 (one per page) -->
+            <h1 class="sr-only">SuperTrucks SRL – Repuestos y Reparaciones para Camiones en Oberá</h1>
+            <p class="lead">Repuestos y servicios profesionales para vehículos pesados. Atención personalizada en Oberá, Misiones.</p>
           </div>
         </div>
       </section>
@@ -140,8 +154,8 @@
         <section id="one" class="wrapper spotlight style1">
           <div class="inner">
             <a href="/catalogo.html" class="image">
-              <img src="images/repuestos.jpg" alt="Super Trucks - Repuestos"
-            /></a>
+              <img src="images/repuestos.jpg"  alt="Repuestos para camiones - catálogo SuperTrucks" loading="lazy" />
+            </a>
             <div class="content">
               <h2 class="major">Todo en Repuestos - Accede a nuestro catalogo</h2>
               <p>
@@ -159,11 +173,11 @@
         <section id="two" class="wrapper alt spotlight style2">
           <div class="inner">
             <a href="#" class="image"
-              ><img src="images/backg.png" alt="Super Trucks - Sobre Nosotros"
-            /></a>
+              ><img src="images/backg.png"  alt="SuperTrucks - Sobre Nosotros" loading="lazy"/></a>
             <div class="content">
-              <h2 class="major">Sobre Nosotros</h2>
-              <p>
+            
+               <h2 class="major">SuperTrucks SRL — Expertos en repuestos y reparaciones en Oberá</h2>
+            <p>
                 En Oberá, Misiones, somos una empresa especializada en repuestos y
                 reparaciones para vehículos pesados. Con años de experiencia en el rubro,
                 ayudamos a transportistas, mecánicos y empresas a mantener sus camiones y
@@ -207,8 +221,8 @@
         <!-- Four -->
         <section id="four" class="wrapper alt style1">
           <div class="inner">
-            <h2 class="major">Nuestro Servicio</h2>
-            <p>
+              <h2 class="major">Servicios de mantenimiento y reparación para camiones</h2>
+          <p>
               En Super Trucks, nos dedicamos a proporcionar un servicio excepcional para
               garantizar el óptimo funcionamiento de tu vehículo pesado. Nos
               especializamos en ofrecer soluciones técnicas avanzadas y asesoramiento
@@ -270,6 +284,7 @@
                 </p>
               </article>
             </section>
+
             <ul class="actions" id="juju">
               <a class="special" id="toggle-map">Encuéntranos en el mapa</a>
             </ul>
@@ -356,42 +371,35 @@
           target="_blank"
           textDecoration="none"
         >
-          <img class="img" src="images/whatsapp.png" alt="Whatsapp" />
+          <img class="img" src="images/whatsapp.png" alt="Contactar por Whatsapp" />
         </a>
       </div>
       <a href="/catalogo.html">
-        <button class="floating-btn">
-          <svg
-            class="floating-icon"
-            xmlns="http://www.w3.org/2000/svg"
-            viewBox="0 0 15 15"
-          >
-            <path
-              d="m.5.5.6 2m0 0 2.4 8h11v-6a2 2 0 0 0-2-2zm11.4 12a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm-8-1a1 1 0 1 1 2 0 1 1 0 0 1-2 0Z"
-              stroke="#FFF"
-              stroke-width="1"
-              fill="none"
-            />
-          </svg>
+            <button class="floating-btn" aria-label="Ir al catálogo">
+           <img class="img" src="/assets/css/images/cart.png" width="30px" alt="Contactar por Whatsapp" />
+       
         </button>
       </a>
     </div>
 
     <!-- Scripts -->
     <script>
-      window.onload = function () {
-        setTimeout(() => {
-          // Oculta el splash screen y muestra el body
-          document.querySelector(".splash-screen").style.visibility = "hidden";
-          document.body.style.visibility = "visible"; // Muestra el contenido del body
-        }, 2000); // Duración de 2 segundos
-      };
+      // Hide splash after a short delay but keep content accessible to crawlers
+      window.addEventListener('load', function(){
+        setTimeout(function(){
+          var s = document.getElementById('splash');
+          if(s) s.classList.add('hidden');
+          var map = document.getElementById('map-frame');
+          // map will be revealed when user clicks
+        }, 2000);
+      });
     </script>
-    <script src="assets/js/jquery.min.js"></script>
-    <script src="assets/js/jquery.scrollex.min.js"></script>
-    <script src="assets/js/browser.min.js"></script>
-    <script src="assets/js/breakpoints.min.js"></script>
-    <script src="assets/js/util.js"></script>
-    <script src="assets/js/main.js"></script>
+    <script src="assets/js/jquery.min.js" defer></script>
+    <script src="assets/js/jquery.scrollex.min.js" defer></script>
+    <script src="assets/js/browser.min.js" defer></script>
+    <script src="assets/js/breakpoints.min.js" defer></script>
+    <script src="assets/js/util.js" defer></script>
+    <script src="assets/js/main.js" defer></script>
+
   </body>
 </html>

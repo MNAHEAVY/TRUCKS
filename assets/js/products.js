@@ -2259,390 +2259,95 @@ const productos = [
   }
 ];
 
-// // Referencias globales
-// concontainer = document.getElementById("product-grid");
-// consearchInp = document.getElementById("search-inp");
-// consearchBton = document.getElementById("search-bton");
 
-// // Mostrar productos
-// function renderProductos(lista) {
-//   container.innerHTML = "";
-//   lista.forEach((producto) => {
-//     conitem = document.createElement("a");
-//     item.href = "#";
-//     item.className = "group product-item";
-//     item.setAttribe("data-marca", producto.brand);
-//     item.setAttribe("data-group", producto.group);
-//     item.innerHTML = `
-//       <img
-//         src="${producto.image}"
-//         alt="${producto.name}"
-//         class="aspect-square w-full rounded-lg bg-gray-200 object-cover group-hover:opacity-75 xl:aspect-7/8"
-//       />
-//       <h3 class="mt-4 text-sm text-gray-700">${producto.name}</h3>
-//       <p class="mt-1 text-sm font-medium text-gray-500">${producto.code}</p>
-//     `;
-//     container.appendChild(item);
-//   });
-// }
-
-// // Filtro por texto
-// function filtrarPorTexto() {
-//   conquery = searchInp.value.trim().toLowerCase();
-//   confiltrados = productos.filter(
-//     (p) =>
-//       p.name.toLowerCase().includes(query) ||
-//       p.code.toLowerCase().includes(query) ||
-//       p.brand.toLowerCase().includes(query) ||
-//       p.group.toLowerCase().includes(query)
-//   );
-//   renderProductos(filtrados);
-//   aplicarFiltrosCheckbox(); // Reaplica filtros si hay checkboxes seleccionados
-// }
-
-// // Filtros por checkbox
-// function aplicarFiltrosCheckbox() {
-//   conbrandCheckboxes = document.querySelectorAll('inp[name="brand[]"]');
-//   congroupCheckboxes = document.querySelectorAll('inp[name="group[]"]');
-//   conitems = document.querySelectorAll(".product-item");
-
-//   conmarcasSeleccionadas = Array.from(brandCheckboxes)
-//     .filter((cb) => cb.checked)
-//     .map((cb) => cb.value);
-
-//   congruposSeleccionados = Array.from(groupCheckboxes)
-//     .filter((cb) => cb.checked)
-//     .map((cb) => cb.value);
-
-//   items.forEach((item) => {
-//     conmarca = item.getAttribe("data-marca");
-//     congrupo = item.getAttribe("data-group");
-
-//     concoincideMarca =
-//       marcasSeleccionadas.length === 0 || marcasSeleccionadas.includes(marca);
-//     concoincideGrupo =
-//       gruposSeleccionados.length === 0 || gruposSeleccionados.includes(grupo);
-
-//     item.style.display = coincideMarca && coincideGrupo ? "" : "none";
-//   });
-// }
-// document.addEventListener("DOMContentLoaded", () => {
-//   conbrands = [
-//     "Mercedes-Benz",
-//     "Scania",
-//     "Iveco",
-//     "Volvo",
-//     "Ford",
-//     "Volkswagen",
-//     "Randon",
-//     "Facchini",
-//     "Jost",
-//     "WAR",
-//     "America",
-//     "SUSPENSYS",
-//     "HBZ",
-//     "Ibero",
-//   ];
-
-//   conbrandLi= document.getElementById("brand-list");
-
-//   brands.forEach((brand) => {
-//     conid = `brand-${brand.toLowerCase().replace(/\s+/g, "-")}`;
-
-//     condiv = document.createElement("div");
-//     div.className = "flex gap-3";
-//     div.innerHTML = `
-//         <div class="flex h-5 shrink-0 items-center">
-//           <div class="group grid size-4 grid-cols-1">
-//             <inp
-//               id="${id}"
-//               name="brand[]"
-//               value="${brand}"
-//               type="checkbox"
-//               class="col-start-1 row-start-1 appearance-none rounded-sm border border-gray-300 bg-white checked:border-indigo-600 checked:bg-indigo-600 focus-visible:oline-2 focus-visible:oline-offset-2 focus-visible:oline-indigo-600"
-//             />
-//             <svg
-//               class="pointer-events-none col-start-1 row-start-1 size-3.5 self-center justify-self-center stroke-white"
-//               viewBox="0 0 14 14"
-//               fill="none"
-//             >
-//               <path
-//                 class="opacity-0 group-has-checked:opacity-100"
-//                 d="M3 8L6 11L11 3.5"
-//                 stroke-width="2"
-//                 stroke-linecap="round"
-//                 stroke-linejoin="round"
-//               />
-//               <path
-//                 class="opacity-0 group-has-indeterminate:opacity-100"
-//                 d="M3 7H11"
-//                 stroke-width="2"
-//                 stroke-linecap="round"
-//                 stroke-linejoin="round"
-//               />
-//             </svg>
-//           </div>
-//         </div>
-//         <label for="${id}" class="text-sm text-gray-600">${brand}</label>
-//       `;
-//     brandList.appendChild(div);
-//   });
-// });
-
-// document.addEventListener("DOMContentLoaded", () => {
-//   concategories = [
-//     "Amortiguadores",
-//     "Aros",
-//     "Barras",
-//     "Bisagras",
-//     "Bombas",
-//     "Burletes",
-//     "Cabina",
-//     "Cañones",
-//     "Cerraduras",
-//     "Cilindro Levanta Cabina",
-//     "Flexibles",
-//     "Juegos de Goma",
-//     "Levantavidrios",
-//     "Manijas",
-//     "Mangueras",
-//     "Marcos",
-//     "Otros",
-//     "Pedales",
-//     "Rejillas",
-//     "Suspensión",
-//     "Tapas",
-//     "Tapones",
-//     "Terminales",
-//   ];
-
-//   concategoryLi= document.getElementById("category-list");
-
-//   categories.forEach((category) => {
-//     conid = `category-${category.toLowerCase().replace(/\s+/g, "-")}`;
-
-//     condiv = document.createElement("div");
-//     div.className = "flex gap-3";
-//     div.innerHTML = `
-//         <div class="flex h-5 shrink-0 items-center">
-//           <div class="group grid size-4 grid-cols-1">
-//             <inp
-//               id="${id}"
-//               name="category[]"
-//               value="${category}"
-//               type="checkbox"
-//               class="col-start-1 row-start-1 appearance-none rounded-sm border border-gray-300 bg-white checked:border-indigo-600 checked:bg-indigo-600 focus-visible:oline-2 focus-visible:oline-offset-2 focus-visible:oline-indigo-600"
-//             />
-//             <svg
-//               class="pointer-events-none col-start-1 row-start-1 size-3.5 self-center justify-self-center stroke-white"
-//               viewBox="0 0 14 14"
-//               fill="none"
-//             >
-//               <path
-//                 class="opacity-0 group-has-checked:opacity-100"
-//                 d="M3 8L6 11L11 3.5"
-//                 stroke-width="2"
-//                 stroke-linecap="round"
-//                 stroke-linejoin="round"
-//               />
-//               <path
-//                 class="opacity-0 group-has-indeterminate:opacity-100"
-//                 d="M3 7H11"
-//                 stroke-width="2"
-//                 stroke-linecap="round"
-//                 stroke-linejoin="round"
-//               />
-//             </svg>
-//           </div>
-//         </div>
-//         <label for="${id}" class="text-sm text-gray-600">${category}</label>
-//       `;
-//     categoryList.appendChild(div);
-//   });
-// });
-
-// Collapse funcionalidad
-// function initCollapse() {
-//   contoggleBtons = document.querySelectorAll(
-//     "bton[aria-controls^='filter-section']"
-//   );
-
-//   toggleBtons.forEach((bton) => {
-//     contargetId = bton.getAttribe("aria-controls");
-//     contarget = document.getElementById(targetId);
-//     conicons = bton.querySelectorAll("svg");
-
-//     // Estado inicial: colapsado
-//     bton.setAttribe("aria-expanded", "false");
-//     target.classList.add("hidden");
-
-//     // Mostrar solo el icono "+" (primer ícono)
-//     if (icons[0]) icons[0].classList.remove("hidden"); // +
-//     if (icons[1]) icons[1].classList.add("hidden"); // -
-
-//     // Evento click para toggle
-//     bton.addEventListener("click", () => {
-//       conisExpanded = bton.getAttribe("aria-expanded") === "true";
-//       bton.setAttribe("aria-expanded", !isExpanded);
-//       target.classList.toggle("hidden");
-
-//       // Alternar iconos: icons[0] = +, icons[1] = -
-//       if (icons.length >= 2) {
-//         icons[0].classList.toggle("hidden", !isExpanded); // mostrar + si cerrado
-//         icons[1].classList.toggle("hidden", isExpanded); // mostrar - si abierto
-//       }
-//     });
-//   });
-// }
-// function aplicarTodosLosFiltros() {
-//   conquery = searchInp.value.trim().toLowerCase();
-
-//   conselectedBrands = Array.from(
-//     document.querySelectorAll('inp[name="brand[]"]:checked')
-//   ).map((cb) => cb.value);
-//   conselectedGroups = Array.from(
-//     document.querySelectorAll('inp[name="group[]"]:checked')
-//   ).map((cb) => cb.value);
-
-//   confiltrados = productos.filter((p) => {
-//     concoincideTexto =
-//       p.name.toLowerCase().includes(query) ||
-//       p.code.toLowerCase().includes(query) ||
-//       p.brand.toLowerCase().includes(query) ||
-//       p.group.toLowerCase().includes(query);
-
-//     concoincideMarca = selectedBrands.length === 0 || selectedBrands.includes(p.brand);
-//     concoincideGrupo = selectedGroups.length === 0 || selectedGroups.includes(p.group);
-
-//     return coincideTexto && coincideMarca && coincideGrupo;
-//   });
-
-//   renderProductos(filtrados);
-// }
-
-// document.addEventListener("DOMContentLoaded", () => {
-//   renderProductos(productos);
-//   initCollapse();
-
-//   if (searchInp && searchBton) {
-//     // Buscar mientras escribe
-//     searchInp.addEventListener("search-inp", aplicarTodosLosFiltros);
-//     // Buscar al apretar enter
-//     searchInp.addEventListener("keydown", (e) => {
-//       if (e.key === "Enter") aplicarTodosLosFiltros();
-//     });
-//     // Buscar con botón
-//     searchBton.addEventListener("click", aplicarTodosLosFiltros);
-//   }
-
-//   // Al cambiar un checkbox
-//   document.addEventListener("change", (e) => {
-//     if (e.target.matches('inp[name="brand[]"], inp[name="group[]"]')) {
-//       aplicarTodosLosFiltros();
-//     }
-//   });
-// });
-
-// Elementosconproductos = [
-
-// Collapse funcionalidad
-
-// Collapse funcionalidad
-function initCollapse() {
-  const toggleButtons = document.querySelectorAll(
-    "button[aria-controls^='filter-section']"
-  );
-
-  toggleButtons.forEach((button) => {
-    const targetId = button.getAttribute("aria-controls");
-    const target = document.getElementById(targetId);
-    const icons = button.querySelectorAll("svg");
-
-    // Estado inicial: colapsado
-    button.setAttribute("aria-expanded", "false");
-    target?.classList.add("hidden");
-
-    if (icons[0]) icons[0].classList.remove("hidden"); // +
-    if (icons[1]) icons[1].classList.add("hidden"); // -
-
-    button.addEventListener("click", () => {
-      const isExpanded = button.getAttribute("aria-expanded") === "true";
-      button.setAttribute("aria-expanded", !isExpanded);
-      target?.classList.toggle("hidden");
-
-      if (icons.length >= 2) {
-        icons[0].classList.toggle("hidden", !isExpanded);
-        icons[1].classList.toggle("hidden", isExpanded);
-      }
-    });
-  });
+// ---------- Helpers ----------
+function slugify(text){
+  return String(text).toLowerCase()
+    .replace(/\s+/g,'-')
+    .replace(/[^\w\-]+/g,'')
+    .replace(/\-\-+/g,'-')
+    .replace(/^-+|-+$/g,'');
+}
+function buildProductUrl(p){
+  // actualmente usa query param; si migrás a rutas estáticas, cambiar acá
+  return `/detail.html?code=${encodeURIComponent(p.code)}`;
 }
 
-// Elementos
-const searchInputs = [
-  document.getElementById("search-input-mobile"),
-  document.getElementById("search-input-desktop"),
-].filter(Boolean);
+// ---------- DOM refs (defensivo) ----------
+const getEl = id => document.getElementById(id);
+const searchInputs = [ getEl("search-input-mobile"), getEl("search-input-desktop") ].filter(Boolean);
+const searchButtons = [ getEl("search-button-mobile"), getEl("search-button-desktop") ].filter(Boolean);
+const brandLists = [ getEl("brand-list-mobile"), getEl("brand-list-desktop") ].filter(Boolean);
+const categoryLists = [ getEl("category-list-mobile"), getEl("category-list-desktop") ].filter(Boolean);
+const productGrid = getEl("product-grid");
 
-const searchButtons = [
-  document.getElementById("search-button-mobile"),
-  document.getElementById("search-button-desktop"),
-].filter(Boolean);
-
-const brandLists = [
-  document.getElementById("brand-list-mobile"),
-  document.getElementById("brand-list-desktop"),
-].filter(Boolean);
-
-const categoryLists = [
-  document.getElementById("category-list-mobile"),
-  document.getElementById("category-list-desktop"),
-].filter(Boolean);
-
-const productGrid = document.getElementById("product-grid");
-
-// Render productos
+// ---------- Render productos ----------
 function renderProductos(lista) {
+  if(!productGrid) return;
   productGrid.innerHTML = "";
 
-  if (lista.length === 0) {
+  if (!lista || lista.length === 0) {
     productGrid.innerHTML = `
       <p class="text-gray-500 mt-4">No se encontraron productos que coincidan con tu búsqueda.</p>
     `;
+    // actualizar JSON-LD con lista vacía si quieres
+    injectJsonLd(lista || []);
     return;
   }
 
   lista.forEach((producto) => {
     const card = document.createElement("a");
-    card.href = `/detail.html?code=${producto.code}`;
+    card.href = buildProductUrl(producto);
     card.className = "group product-item";
-    card.setAttribute("data-marca", producto.brand);
-    card.setAttribute("data-group", producto.group);
+    card.setAttribute("data-marca", producto.brand || "");
+    card.setAttribute("data-group", producto.group || "");
     card.innerHTML = `
       <img
         src="${producto.image}"
-        alt="${producto.name}"
+        alt="${escapeHtml(producto.name)}"
         class="aspect-square w-full rounded-lg bg-gray-200 object-cover group-hover:opacity-75 xl:aspect-7/8"
+        loading="lazy"
+        width="420"
+        height="420"
       />
-      <h3 class="mt-4 text-sm text-gray-700">${producto.name}</h3>
-      <p class="mt-1 text-sm font-medium text-gray-900">${producto.code}</p>
+      <h3 class="mt-4 text-sm text-gray-700">${escapeHtml(producto.name)}</h3>
+      <p class="mt-1 text-sm font-medium text-gray-900">${escapeHtml(producto.code)}</p>
     `;
     productGrid.appendChild(card);
   });
+
+  // Inyectar JSON-LD con los productos actualmente renderizados
+  injectJsonLd(lista);
 }
 
-// Inicializar filtros
+// Escapar texto simple para evitar HTML en nombres/descripciones
+function escapeHtml (unsafe) {
+  return String(unsafe).replace(/[&<>"'`=\/]/g, function (s) {
+    return ({
+      '&': '&amp;',
+      '<': '&lt;',
+      '>': '&gt;',
+      '"': '&quot;',
+      "'": '&#39;',
+      '/': '&#x2F;',
+      '`': '&#x60;',
+      '=': '&#x3D;'
+    })[s];
+  });
+}
+
+// ---------- Init filtros (checkbox lists) ----------
 function initFilters() {
-  const marcas = [...new Set(productos.map((p) => p.brand).filter(Boolean))];
-  const categorias = [...new Set(productos.map((p) => p.group).filter(Boolean))];
+  const marcas = [...new Set(productos.map((p) => p.brand).filter(Boolean))].sort();
+  const categorias = [...new Set(productos.map((p) => p.group).filter(Boolean))].sort();
 
   brandLists.forEach((list) => {
     list.innerHTML = marcas
       .map(
         (brand) => `
         <label class="flex items-center">
-          <input type="checkbox" name=brand value="${brand}" class="mr-2">
-          ${brand}
+          <input type="checkbox" name="brand" value="${escapeHtml(brand)}" class="mr-2">
+          ${escapeHtml(brand)}
         </label>
       `
       )
@@ -2654,8 +2359,8 @@ function initFilters() {
       .map(
         (cat) => `
         <label class="flex items-center">
-          <input type="checkbox" name="category" value="${cat}" class="mr-2">
-          ${cat}
+          <input type="checkbox" name="category" value="${escapeHtml(cat)}" class="mr-2">
+          ${escapeHtml(cat)}
         </label>
       `
       )
@@ -2663,31 +2368,25 @@ function initFilters() {
   });
 }
 
-// Filtrar productos
+// ---------- Filtrado ----------
 function filtrarProductos() {
-  const queries = searchInputs.map((input) => input.value?.toLowerCase() || "");
-  const combinedQuery = queries.find((q) => q.trim().length > 0) || "";
+  const combinedQuery = searchInputs.map(i => i.value?.toLowerCase()?.trim() || "").find(q => q.length>0) || "";
 
-  const marcasSeleccionadas = Array.from(
-    document.querySelectorAll('input[name=brand]:checked')
-  ).map((cb) => cb.value);
-
-  const categoriasSeleccionadas = Array.from(
-    document.querySelectorAll('input[name="category"]:checked')
-  ).map((cb) => cb.value);
+  const marcasSeleccionadas = Array.from(document.querySelectorAll('input[name="brand"]:checked')).map(cb => cb.value);
+  const categoriasSeleccionadas = Array.from(document.querySelectorAll('input[name="category"]:checked')).map(cb => cb.value);
 
   const filtrados = productos.filter((p) => {
-    const coincideBusqueda =
-      (p.name?.toLowerCase() || "").includes(combinedQuery) ||
-      (p.code?.toLowerCase() || "").includes(combinedQuery) ||
-      (p.brand?.toLowerCase() || "").includes(combinedQuery) ||
-      (p.group?.toLowerCase() || "").includes(combinedQuery);
+    const name = (p.name||"").toLowerCase();
+    const code = (p.code||"").toLowerCase();
+    const brand = (p.brand||"").toLowerCase();
+    const group = (p.group||"").toLowerCase();
+    const q = combinedQuery.toLowerCase();
 
-    const coincideMarca =
-      marcasSeleccionadas.length === 0 || marcasSeleccionadas.includes(p.brand);
+    const coincideBusqueda = q === "" ||
+      name.includes(q) || code.includes(q) || brand.includes(q) || group.includes(q);
 
-    const coincideCategoria =
-      categoriasSeleccionadas.length === 0 || categoriasSeleccionadas.includes(p.group);
+    const coincideMarca = marcasSeleccionadas.length === 0 || marcasSeleccionadas.includes(p.brand);
+    const coincideCategoria = categoriasSeleccionadas.length === 0 || categoriasSeleccionadas.includes(p.group);
 
     return coincideBusqueda && coincideMarca && coincideCategoria;
   });
@@ -2695,50 +2394,128 @@ function filtrarProductos() {
   renderProductos(filtrados);
 }
 
-// Eventos búsqueda
+// ---------- Event listeners de búsqueda ----------
 searchInputs.forEach((input) => {
   input.addEventListener("input", filtrarProductos);
 });
-
 searchButtons.forEach((btn) => {
   btn.addEventListener("click", filtrarProductos);
 });
 
-// Eventos filtros
+// ---------- Cambios en filtros (delegación segura) ----------
 document.addEventListener("change", (e) => {
-  if (e.target.name === brand || e.target.name === "category") {
+  const name = e.target && e.target.name;
+  if (name === "brand" || name === "category") {
     filtrarProductos();
 
-    // Cerrar panel mobile si está visible
-    if (!panel?.classList.contains("hidden")) {
-      closeBtn?.click();
+    // cerrar panel mobile si está visible (si existen referencias)
+    const panel = document.getElementById("filtersPanel");
+    const closeBtn = document.getElementById("closeFiltersBtn");
+    if (panel && !panel.classList.contains("hidden") && closeBtn) {
+      closeBtn.click();
     }
   }
-}); 
+});
 
-// Off-canvas panel (mobile)
+// ---------- Off-canvas panel (mobile) con controles ARIA ---------
 const openBtn = document.getElementById("openFiltersBtn");
 const closeBtn = document.getElementById("closeFiltersBtn");
 const panel = document.getElementById("filtersPanel");
 const content = document.getElementById("filtersContent");
 
-openBtn?.addEventListener("click", () => {
-  panel?.classList.remove("hidden");
-  setTimeout(() => {
-    content?.classList.remove("translate-x-full");
-    content?.classList.add("translate-x-0");
-  }, 10);
-});
+if(openBtn && panel) {
+  openBtn.setAttribute("aria-controls", "filtersPanel");
+  openBtn.setAttribute("aria-expanded", "false");
+  openBtn.addEventListener("click", () => {
+    panel.classList.remove("hidden");
+    setTimeout(() => {
+      content?.classList.remove("translate-x-full");
+      content?.classList.add("translate-x-0");
+      openBtn.setAttribute("aria-expanded", "true");
+      panel.setAttribute("aria-hidden", "false");
+    }, 10);
+  });
+}
+if(closeBtn && panel) {
+  closeBtn.addEventListener("click", () => {
+    content?.classList.remove("translate-x-0");
+    content?.classList.add("translate-x-full");
+    setTimeout(() => {
+      panel.classList.add("hidden");
+      openBtn?.setAttribute("aria-expanded", "false");
+      panel.setAttribute("aria-hidden", "true");
+    }, 300);
+  });
+}
 
-closeBtn?.addEventListener("click", () => {
-  content?.classList.remove("translate-x-0");
-  content?.classList.add("translate-x-full");
-  setTimeout(() => {
-    panel?.classList.add("hidden");
-  }, 300);
-});
+// ---------- Collapse sections (marca / categorias) ----------
+function initCollapse() {
+  const toggleButtons = document.querySelectorAll("button[aria-controls^='filter-section']");
+  toggleButtons.forEach((button) => {
+    const targetId = button.getAttribute("aria-controls");
+    const target = document.getElementById(targetId);
+    const svgs = button.querySelectorAll("svg");
+    button.setAttribute("aria-expanded", "false");
+    if(target) target.classList.add("hidden");
+    if(svgs[0]) svgs[0].classList.remove("hidden");
+    if(svgs[1]) svgs[1].classList.add("hidden");
 
-// Inicializar
+    button.addEventListener("click", () => {
+      const expanded = button.getAttribute("aria-expanded") === "true";
+      button.setAttribute("aria-expanded", String(!expanded));
+      if(target) target.classList.toggle("hidden");
+      if(svgs.length >= 2){
+        svgs[0].classList.toggle("hidden", !expanded);
+        svgs[1].classList.toggle("hidden", expanded);
+      }
+    });
+  });
+}
+
+// ---------- JSON-LD injection ----------
+function injectJsonLd(productsList) {
+  // remover script previo si existe
+  const existing = document.getElementById('ld-products');
+  if(existing) existing.remove();
+
+  const items = (productsList || []).map((p, i) => {
+    const slug = slugify(p.name || p.code || `prod-${p.id}`);
+    return {
+      "@type": "ListItem",
+      "position": i + 1,
+      "url": location.origin + buildProductUrl(p),
+      "item": {
+        "@type": "Product",
+        "name": p.name,
+        "image": location.origin + '/' + (p.image || ''),
+        "description": p.description || '',
+        "sku": p.code || '',
+        "brand": {"@type":"Brand","name": p.brand || ''},
+        "offers": {
+          "@type":"Offer",
+          "url": location.origin + buildProductUrl(p),
+          "priceCurrency": "ARS",
+          "price": p.price || "0",
+          "availability": "https://schema.org/InStock"
+        }
+      }
+    };
+  });
+
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    "itemListElement": items
+  };
+
+  const s = document.createElement('script');
+  s.type = 'application/ld+json';
+  s.id = 'ld-products';
+  s.text = JSON.stringify(jsonLd);
+  document.head.appendChild(s);
+}
+
+// ---------- Init ----------
 document.addEventListener("DOMContentLoaded", () => {
   initFilters();
   initCollapse();

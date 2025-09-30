@@ -3,11 +3,67 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Supertrucks Productos</title>
+    <title>
+      Catálogo de Productos — SuperTrucks SRL | Repuestos para Camiones
+    </title>
+    <meta
+      name="description"
+      content="Catálogo de repuestos para camiones: filtros, tapones, embragues y más. Stock y asesoramiento técnico en Oberá, Misiones — SuperTrucks SRL."
+    />
+    <!-- Open Graph (mejor CTR en redes) -->
+    <meta
+      property="og:title"
+      content="Catálogo de Productos — SuperTrucks SRL"
+    />
+    <meta
+      property="og:description"
+      content="Catálogo de repuestos para camiones: filtros, tapones, embragues y más. Stock y asesoramiento técnico en Oberá, Misiones."
+    />
+    <meta
+      property="og:url"
+      content="https://supertrucksrl.com/productos.html"
+    />
+    <meta property="og:site_name" content="SuperTrucks SRL" />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:image"
+      content="https://supertrucksrl.com/images/repuestos-camiones.jpg"
+    />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta
+      name="twitter:title"
+      content="Catálogo de Productos — SuperTrucks SRL"
+    />
+    <meta
+      name="twitter:description"
+      content="Repuestos y productos para camiones. Stock y asesoramiento técnico en Oberá, Misiones."
+    />
+    <meta
+      name="twitter:image"
+      content="https://supertrucksrl.com/images/repuestos-camiones.jpg"
+    />
+
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-    <script src="assets/js/products.js" defer></script>
     <link rel="stylesheet" href="https://rsms.me/inter/inter.css" />
+    <style>
+      /* pequeñas reglas críticas para evitar FOUC */
+      .sr-only {
+        position: absolute !important;
+        width: 1px;
+        height: 1px;
+        padding: 0;
+        margin: -1px;
+        overflow: hidden;
+        clip: rect(0, 0, 0, 0);
+        white-space: nowrap;
+        border: 0;
+      }
+      /* Offcanvas helper transitions (si usás translate-x-full etc) */
+    </style>
   </head>
+
   <body>
     <div
       class="bg-white absolute inset-y-0 w-full bg-[url('images/Untitled.png')] bg-no-repeat lg:block"
@@ -20,7 +76,10 @@
           role="dialog"
           aria-modal="true"
         >
-          <div class="fixed inset-0 bg-black/25 backdrop" aria-hidden="true"></div>
+          <div
+            class="fixed inset-0 bg-black/25 backdrop"
+            aria-hidden="true"
+          ></div>
 
           <div class="fixed inset-0 z-40 flex">
             <div
@@ -240,12 +299,20 @@
                     >
                       <span class="font-medium text-gray-900">Marca</span>
                       <span class="ml-6 flex items-center">
-                        <svg class="size-5" viewBox="0 0 20 20" fill="currentColor">
+                        <svg
+                          class="size-5"
+                          viewBox="0 0 20 20"
+                          fill="currentColor"
+                        >
                           <path
                             d="M10.75 4.75a.75.75 0 0 0-1.5 0v4.5h-4.5a.75.75 0 0 0 0 1.5h4.5v4.5a.75.75 0 0 0 1.5 0v-4.5h4.5a.75.75 0 0 0 0-1.5h-4.5v-4.5Z"
                           />
                         </svg>
-                        <svg class="size-5" viewBox="0 0 20 20" fill="currentColor">
+                        <svg
+                          class="size-5"
+                          viewBox="0 0 20 20"
+                          fill="currentColor"
+                        >
                           <path
                             fill-rule="evenodd"
                             d="M4 10a.75.75 0 0 1 .75-.75h10.5a.75.75 0 0 1 0 1.5H4.75A.75.75 0 0 1 4 10Z"
@@ -270,12 +337,20 @@
                     >
                       <span class="font-medium text-gray-900">Categorias</span>
                       <span class="ml-6 flex items-center">
-                        <svg class="size-5" viewBox="0 0 20 20" fill="currentColor">
+                        <svg
+                          class="size-5"
+                          viewBox="0 0 20 20"
+                          fill="currentColor"
+                        >
                           <path
                             d="M10.75 4.75a.75.75 0 0 0-1.5 0v4.5h-4.5a.75.75 0 0 0 0 1.5h4.5v4.5a.75.75 0 0 0 1.5 0v-4.5h4.5a.75.75 0 0 0 0-1.5h-4.5v-4.5Z"
                           />
                         </svg>
-                        <svg class="size-5" viewBox="0 0 20 20" fill="currentColor">
+                        <svg
+                          class="size-5"
+                          viewBox="0 0 20 20"
+                          fill="currentColor"
+                        >
                           <path
                             fill-rule="evenodd"
                             d="M4 10a.75.75 0 0 1 .75-.75h10.5a.75.75 0 0 1 0 1.5H4.75A.75.75 0 0 1 4 10Z"
@@ -292,9 +367,12 @@
               </form>
 
               <!-- Product grid -->
+
               <div class="lg:col-span-3">
                 <div class="bg-white">
-                  <div class="mx-auto max-w-2xl px-4 sm:px-6 lg:max-w-7xl lg:px-8">
+                  <div
+                    class="mx-auto max-w-2xl px-4 sm:px-6 lg:max-w-7xl lg:px-8"
+                  >
                     <div
                       class="relative max-w-[250px] w-full bg-[url('/images/nnnnn.svg')] bg-no-repeat bg-center bg-contain h-16 flex items-center justify-center"
                     >
@@ -304,10 +382,43 @@
                         Productos
                       </h2>
                     </div>
-
+                    <!-- Noscript fallback: ayuda a crawlers sin JS y usuarios sin JS -->
+                    <noscript>
+                      <div
+                        style="
+                          background: #fff;
+                          border: 1px solid #eee;
+                          padding: 1rem;
+                          margin-top: 1rem;
+                        "
+                      >
+                        <p>
+                          Si JavaScript está desactivado, algunos productos
+                          pueden no mostrarse. Ejemplo de productos destacados:
+                        </p>
+                        <ul>
+                          <li>
+                            <a href="/detail.html?code=10223"
+                              >Tapón del depósito de combustible — 10223</a
+                            >
+                          </li>
+                          <li>
+                            <a href="/detail.html?code=10239"
+                              >Tapa de combustible — 10239</a
+                            >
+                          </li>
+                          <li>
+                            <a href="/detail.html?code=10293"
+                              >Tapón de combustible — 10293</a
+                            >
+                          </li>
+                        </ul>
+                      </div>
+                    </noscript>
                     <div
                       id="product-grid"
                       class="grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 xl:gap-x-8"
+                      aria-live="polite"
                     ></div>
                   </div>
                 </div>
@@ -317,5 +428,25 @@
         </main>
       </div>
     </div>
+    <!-- SCRIPTS: defer para no bloquear render -->
+    <script src="assets/js/products.js" defer></script>
+    <!-- Si usás utilitarios adicionales: -->
+    <script src="assets/js/util.js" defer></script>
+    <!-- Pequeño script para mejorar la accesibilidad de off-canvas en código mínimo (comprobación redundante) -->
+    <script>
+      // Asegurar atributos ARIA correctos si el DOM ya está cargado
+      document.addEventListener("DOMContentLoaded", function () {
+        const openBtn = document.getElementById("openFiltersBtn");
+        const panel = document.getElementById("filtersPanel");
+        if (openBtn && panel) {
+          openBtn.setAttribute("aria-controls", "filtersPanel");
+          openBtn.setAttribute(
+            "aria-expanded",
+            panel.classList.contains("hidden") ? "false" : "true"
+          );
+          // El resto lo maneja products.js (open/close) — esto solo sincroniza estado inicial
+        }
+      });
+    </script>
   </body>
 </html>
