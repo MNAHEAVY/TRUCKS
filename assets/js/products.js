@@ -2318,7 +2318,7 @@ const productos = [
     description: "Ø 362 mm. Aplicación: 1218c/1318c/1718c/1418c. Referencia: 1343/5523/3309/6343.",
     brand: "Mercedes-Benz",
     group: "Embragues",
-    image: "imagesb/k1418c.jpeg"
+    image: "imagesb/k1418c.jpg"
   },
   {
     id: 3007,
