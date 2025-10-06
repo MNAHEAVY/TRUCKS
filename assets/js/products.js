@@ -2264,7 +2264,7 @@ const productos = [
     description: "Ø 310 mm. Aplicación: 1313/1513 - Membrana. Referencias: 1236/5391/3358.",
     brand: "Mercedes-Benz",
     group: "Embragues",
-    image: "imagesb/k6236.webp"
+    image: "imagesb/k6236.jpg"
   },
   {
     id: 3001,
@@ -2273,7 +2273,7 @@ const productos = [
     description: "Ø 310 mm. Aplicación: 710 / OM364 712 (>2012) LA euro III (>2006). Referencia: 1204/5367/3326.",
     brand: "Mercedes-Benz",
     group: "Embragues",
-    image: "imagesb/k6207.webp"
+    image: "imagesb/k6207.jpg"
   },
   {
     id: 3002,
@@ -2282,7 +2282,7 @@ const productos = [
     description: "Ø 330 mm. Aplicación: 1518/1618. Referencia: 1192/5326/3324.",
     brand: "Mercedes-Benz",
     group: "Embragues",
-    image: "imagesb/k6192.webp"
+    image: "imagesb/k6192.jpg"
   },
   {
     id: 3003,
@@ -2291,7 +2291,7 @@ const productos = [
     description: "Ø 362 mm. Aplicación: 710C/712C/914C/915C/1315C/Lo914/Lo915. Con actuador. Referencia: 1342/5523/3361/6342.",
     brand: "Mercedes-Benz",
     group: "Embragues",
-    image: "imagesb/k914c.webp"
+    image: "imagesb/k914c.jpg"
   },
   {
     id: 3004,
@@ -2300,7 +2300,7 @@ const productos = [
     description: "Ø 350 mm. Aplicación: 1618/1620. Referencia: 1258/5335/3325/6258.",
     brand: "Mercedes-Benz",
     group: "Embragues",
-    image: "imagesb/k1620.webp"
+    image: "imagesb/k1620.jpg"
   },
   {
     id: 3005,
@@ -2309,7 +2309,7 @@ const productos = [
     description: "Ø 350 mm. Aplicación: 1620/1621/1721/DE 1420/DE 1521/DE (18 estrías). Referencia: 1512/5536/3309.",
     brand: "Mercedes-Benz",
     group: "Embragues",
-    image: "imagesb/k6612.webp"
+    image: "imagesb/k6612.jpg"
   },
   {
     id: 3006,
@@ -2318,7 +2318,7 @@ const productos = [
     description: "Ø 362 mm. Aplicación: 1218c/1318c/1718c/1418c. Referencia: 1343/5523/3309/6343.",
     brand: "Mercedes-Benz",
     group: "Embragues",
-    image: "imagesb/k1418c.webp"
+    image: "imagesb/k1418c.jpg"
   },
   {
     id: 3007,
@@ -2327,7 +2327,7 @@ const productos = [
     description: "Ø 395 mm. Aplicación: 1622 caja MBB. Con actuador. Referencia: 1546/5766/3361.",
     brand: "Mercedes-Benz",
     group: "Embragues",
-    image: "imagesb/k6520.webp"
+    image: "imagesb/k6520.jpg"
   },
   {
     id: 3008,
@@ -2336,7 +2336,7 @@ const productos = [
     description: "Ø 430 mm. Aplicación: 1634/1938/1944/2038 (10 estrías). Referencia: 1497/5705/3377/6497.",
     brand: "Scania / Mercedes-Benz",
     group: "Embragues",
-    image: "imagesb/k1938z.webp"
+    image: "imagesb/k1938z.jpg"
   },
   {
     id: 3009,
@@ -2345,7 +2345,7 @@ const productos = [
     description: "Ø 430 mm. Variantes: 18 estrías para modelos Axor/1933/2035/2040. Referencia: 1497/5535/3377/6535.",
     brand: "Scania",
     group: "Embragues",
-    image: "imagesb/k1938s.webp"
+    image: "imagesb/k1938s.jpg"
   },
   {
     id: 3010,
@@ -2354,7 +2354,7 @@ const productos = [
     description: "Ø 420 mm. Aplicación: 112/113/320 CV. Referencia: 1201/5345/3375/6201.",
     brand: "Scania",
     group: "Embragues",
-    image: "imagesb/k112.webp"
+    image: "imagesb/k112.jpg"
   },
   {
     id: 3011,
@@ -2363,7 +2363,7 @@ const productos = [
     description: "Ø 430 mm. Aplicación: 124 (desde 01/2008) disco reforzado. Referencia: 1453/5453/3350.",
     brand: "Scania",
     group: "Embragues",
-    image: "imagesb/k6453.webp"
+    image: "imagesb/k6453.jpg"
   },
   {
     id: 3012,
@@ -2372,7 +2372,7 @@ const productos = [
     description: "Ø 430 mm. Aplicación: 113 (8 marchas) 24 estrías. Referencia: 1470/5722/3352.",
     brand: "Scania",
     group: "Embragues",
-    image: "imagesb/k6482.webp"
+    image: "imagesb/k6482.jpg"
   },
   {
     id: 3013,
@@ -2381,7 +2381,7 @@ const productos = [
     description: "Ø 430 mm. Aplicación: 112 HW/113 (10 marchas) 22 estrías. Referencia: 1470/5389/3353/6485.",
     brand: "Scania",
     group: "Embragues",
-    image: "imagesb/k6485.webp"
+    image: "imagesb/k6485.jpg"
   },
   {
     id: 3014,
@@ -2390,7 +2390,7 @@ const productos = [
     description: "Ø 280mm según aplicación. Aplicación 1111/1113/321/609/709/710 11″ 10 estrías.",
     brand: "Scania / Mercedes-Benz",
     group: "Embragues",
-    image: "imagesb/d5346.webp"
+    image: "imagesb/d5346.jpg"
   },
   {
     id: 3015,
@@ -2399,7 +2399,7 @@ const productos = [
     description: "Ø 310 mm. Aplicaciones múltiples 1313/1014/1116/1314/1316/1513/1514/1516/18 13/2013/2014/2213/2214/2216/2217 10 estrías.",
     brand: "—",
     group: "Embragues",
-    image: "imagesb/d5391.webp"
+    image: "imagesb/d5391.jpg"
   },
   {
     id: 3016,
@@ -2408,7 +2408,7 @@ const productos = [
     description: "Ø 330 / Ø 350 / Ø 362 mm según versión. Aplicaciones: 1518/1218/1318/1414/1517/1614/1618 y Mercedes Benz 1620 caja ZF.",
     brand: "Mercedes-Benz",
     group: "Embragues",
-    image: "imagesb/d5326.webp"
+    image: "imagesb/d5326.jpg"
   },
   {
     id: 3017,
@@ -2417,7 +2417,7 @@ const productos = [
     description: "Ø 350 mm (10 estrías) para Mercedes-Benz 1620 caja ZF. Variantes 18 estrías para otros modelos.",
     brand: "Mercedes-Benz",
     group: "Embragues",
-    image: "imagesb/d5335.webp"
+    image: "imagesb/d5335.jpg"
   },
   {
     id: 3018,
@@ -2426,7 +2426,7 @@ const productos = [
     description: "Ø 350 mm (18 estrías) Aplicación: 1420/1620/1621 caja Mercedes.",
     brand: "Mercedes-Benz",
     group: "Embragues",
-    image: "imagesb/d5536.webp"
+    image: "imagesb/d5536.jpg"
   },
   {
     id: 3019,
@@ -2435,7 +2435,7 @@ const productos = [
     description: "Ø 362 mm. Aplicación: 710c/712c/1214c/914c/Accelo 915c/Atego/1315c/Lo914/LO915.",
     brand: "Mercedes-Benz",
     group: "Embragues",
-    image: "imagesb/d5523.webp"
+    image: "imagesb/d5523.jpg"
   },
   {
     id: 3020,
@@ -2444,7 +2444,7 @@ const productos = [
     description: "Ø 430 mm. Aplicación: 1934/1938-S/1944/Axor/2035/2040/2044/2540/2544 (18 estrías).",
     brand: "Mercedes-Benz",
     group: "Embragues",
-    image: "imagesb/d5535.webp"
+    image: "imagesb/d5535.jpg"
   },
   {
     id: 3021,
@@ -2453,7 +2453,7 @@ const productos = [
     description: "Ø 395 mm. Aplicación: 1722/1723/1725/1728/2428 electrónico c/ pre-amortiguación. Referencia en catálogo.",
     brand: "Mercedes-Benz",
     group: "Embragues",
-    image: "imagesb/d5766.webp"
+    image: "imagesb/d5766.jpg"
   },
   {
     id: 3022,
@@ -2462,7 +2462,7 @@ const productos = [
     description: "Ø 420 mm. Aplicación: 1924/1929/1630/1932/1933 (embrague empujado) 10 estrías.",
     brand: "Mercedes-Benz",
     group: "Embragues",
-    image: "imagesb/d5336.webp"
+    image: "imagesb/d5336.jpg"
   },
   {
     id: 3023,
@@ -2471,7 +2471,7 @@ const productos = [
     description: "V∅ 430 mm Aplicación 1935.",
     brand: "Mercedes-Benz",
     group: "Embragues",
-    image: "imagesb/d5655.webp"
+    image: "imagesb/d5655.jpg"
   },
   {
     id: 3024,
@@ -2480,7 +2480,7 @@ const productos = [
     description: "Ø 430 mm. Aplicación: 1935/1938 (10 estrías, caja ZF). También para EuroTech/EuroTrakker/Stralis. Referencias: 1542/5655/5705/3366.",
     brand: "Iveco",
     group: "Embragues",
-    image: "imagesb/d5705.webp"
+    image: "imagesb/d5705.jpg"
   },
   {
     id: 3025,
@@ -2489,7 +2489,7 @@ const productos = [
     description: "∅ 430 mm Aplicación EURO TECH EURO TRAKKER STRALIS Referencia 1542/5655/5705/3366.",
     brand: "Iveco",
     group: "Embragues",
-    image: "imagesb/k6542.webp"
+    image: "imagesb/k6542.jpg"
   },
   {
     id: 3026,
@@ -2498,7 +2498,7 @@ const productos = [
     description: "∅ 400 mm Aplicación Cursor CAVALLINO 450e33 Referencia 1641/5641/3366.",
     brand: "Iveco",
     group: "Embragues",
-    image: "imagesb/k6541.webp"
+    image: "imagesb/k6541.jpg"
   },
   {
     id: 3027,
@@ -2507,7 +2507,7 @@ const productos = [
     description: "∅ 430 mm Aplicación STRALIS Referencia 1542/5704/5705/3366.",
     brand: "Iveco",
     group: "Embragues",
-    image: "imagesb/k6543.webp"
+    image: "imagesb/k6543.jpg"
   },
   {
     id: 3028,
@@ -2516,7 +2516,7 @@ const productos = [
     description: "Ø 395 mm. Aplicación: Tector 170e28/240e28/260e28/Stradale 240e25s. Referencia: 1751/5751/3401.",
     brand: "Iveco",
     group: "Embragues",
-    image: "imagesb/k6751.webp"
+    image: "imagesb/k6751.jpg"
   },
   {
     id: 3029,
@@ -2525,7 +2525,7 @@ const productos = [
     description: "Ø 380 mm. Aplicación: Tector 170e25/240e25/260e25. Referencia: 1583/5383/3391.",
     brand: "Iveco",
     group: "Embragues",
-    image: "imagesb/k1583.webp"
+    image: "imagesb/k1583.jpg"
   },
   {
     id: 3030,
@@ -2534,7 +2534,7 @@ const productos = [
     description: "Ø 430 mm. Aplicación: 113 (10 marchas) 22 estrías.",
     brand: "Scania",
     group: "Embragues",
-    image: "imagesb/d5389.webp"
+    image: "imagesb/d5389.jpg"
   },
   {
     id: 3031,
@@ -2543,7 +2543,7 @@ const productos = [
     description: "∅430 mm Solicitud 113 8 marchas 114/124 24 estrías.",
     brand: "Scania",
     group: "Embragues",
-    image: "imagesb/d5722.webp"
+    image: "imagesb/d5722.jpg"
   },
   {
     id: 3032,
@@ -2552,7 +2552,7 @@ const productos = [
     description: "∅ 430 mm Solicitud 114 124 DESPUÉS DE 2008 Reforzado 24 estrías Serie 5.",
     brand: "Scania",
     group: "Embragues",
-    image: "imagesb/d5453.webp"
+    image: "imagesb/d5453.jpg"
   }
 ];
 
