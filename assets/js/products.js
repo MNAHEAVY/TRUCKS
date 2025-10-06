@@ -2291,7 +2291,7 @@ const productos = [
     description: "Ø 362 mm. Aplicación: 710C/712C/914C/915C/1315C/Lo914/Lo915. Con actuador. Referencia: 1342/5523/3361/6342.",
     brand: "Mercedes-Benz",
     group: "Embragues",
-    image: "imagesb/k914c.jpeg"
+    image: "imagesb/k914c.jpg"
   },
   {
     id: 3004,
