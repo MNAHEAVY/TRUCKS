@@ -2256,6 +2256,303 @@ const productos = [
     brand: "Facchini/Rodofort",
     group: "Resortes",
     image: "imagesb/870.jpg"
+  },
+  {
+    id: 3000,
+    code: "K6236",
+    name: "Kit de Embrague MB",
+    description: "Ø 310 mm. Aplicación: 1313/1513 - Membrana. Referencias: 1236/5391/3358.",
+    brand: "Mercedes-Benz",
+    group: "Embragues",
+    image: "imagesb/k6236.webp"
+  },
+  {
+    id: 3001,
+    code: "K6207",
+    name: "Kit de Embrague MB",
+    description: "Ø 310 mm. Aplicación: 710 / OM364 712 (>2012) LA euro III (>2006). Referencia: 1204/5367/3326.",
+    brand: "Mercedes-Benz",
+    group: "Embragues",
+    image: "imagesb/k6207.webp"
+  },
+  {
+    id: 3002,
+    code: "K6192",
+    name: "Kit de Embrague MB",
+    description: "Ø 330 mm. Aplicación: 1518/1618. Referencia: 1192/5326/3324.",
+    brand: "Mercedes-Benz",
+    group: "Embragues",
+    image: "imagesb/k6192.webp"
+  },
+  {
+    id: 3003,
+    code: "K914C",
+    name: "Kit de Embrague MB",
+    description: "Ø 362 mm. Aplicación: 710C/712C/914C/915C/1315C/Lo914/Lo915. Con actuador. Referencia: 1342/5523/3361/6342.",
+    brand: "Mercedes-Benz",
+    group: "Embragues",
+    image: "imagesb/k914c.webp"
+  },
+  {
+    id: 3004,
+    code: "K1620",
+    name: "Kit de Embrague MB",
+    description: "Ø 350 mm. Aplicación: 1618/1620. Referencia: 1258/5335/3325/6258.",
+    brand: "Mercedes-Benz",
+    group: "Embragues",
+    image: "imagesb/k1620.webp"
+  },
+  {
+    id: 3005,
+    code: "K6612",
+    name: "Kit de Embrague MB",
+    description: "Ø 350 mm. Aplicación: 1620/1621/1721/DE 1420/DE 1521/DE (18 estrías). Referencia: 1512/5536/3309.",
+    brand: "Mercedes-Benz",
+    group: "Embragues",
+    image: "imagesb/k6612.webp"
+  },
+  {
+    id: 3006,
+    code: "K1418C",
+    name: "Kit de Embrague MB",
+    description: "Ø 362 mm. Aplicación: 1218c/1318c/1718c/1418c. Referencia: 1343/5523/3309/6343.",
+    brand: "Mercedes-Benz",
+    group: "Embragues",
+    image: "imagesb/k1418c.webp"
+  },
+  {
+    id: 3007,
+    code: "K6520",
+    name: "Kit de Embrague MB",
+    description: "Ø 395 mm. Aplicación: 1622 caja MBB. Con actuador. Referencia: 1546/5766/3361.",
+    brand: "Mercedes-Benz",
+    group: "Embragues",
+    image: "imagesb/k6520.webp"
+  },
+  {
+    id: 3008,
+    code: "K1938Z",
+    name: "Kit de Embrague MB/Scania",
+    description: "Ø 430 mm. Aplicación: 1634/1938/1944/2038 (10 estrías). Referencia: 1497/5705/3377/6497.",
+    brand: "Scania / Mercedes-Benz",
+    group: "Embragues",
+    image: "imagesb/k1938z.webp"
+  },
+  {
+    id: 3009,
+    code: "K1938S",
+    name: "Kit de Embrague Scania",
+    description: "Ø 430 mm. Variantes: 18 estrías para modelos Axor/1933/2035/2040. Referencia: 1497/5535/3377/6535.",
+    brand: "Scania",
+    group: "Embragues",
+    image: "imagesb/k1938s.webp"
+  },
+  {
+    id: 3010,
+    code: "K112",
+    name: "Kit/Disco de Embrague Scania",
+    description: "Ø 420 mm. Aplicación: 112/113/320 CV. Referencia: 1201/5345/3375/6201.",
+    brand: "Scania",
+    group: "Embragues",
+    image: "imagesb/k112.webp"
+  },
+  {
+    id: 3011,
+    code: "K6453",
+    name: "Kit/Disco de Embrague Scania",
+    description: "Ø 430 mm. Aplicación: 124 (desde 01/2008) disco reforzado. Referencia: 1453/5453/3350.",
+    brand: "Scania",
+    group: "Embragues",
+    image: "imagesb/k6453.webp"
+  },
+  {
+    id: 3012,
+    code: "K6482",
+    name: "Kit de Embrague Scania",
+    description: "Ø 430 mm. Aplicación: 113 (8 marchas) 24 estrías. Referencia: 1470/5722/3352.",
+    brand: "Scania",
+    group: "Embragues",
+    image: "imagesb/k6482.webp"
+  },
+  {
+    id: 3013,
+    code: "K6485",
+    name: "Kit/Disco de Embrague Scania",
+    description: "Ø 430 mm. Aplicación: 112 HW/113 (10 marchas) 22 estrías. Referencia: 1470/5389/3353/6485.",
+    brand: "Scania",
+    group: "Embragues",
+    image: "imagesb/k6485.webp"
+  },
+  {
+    id: 3014,
+    code: "D5346",
+    name: "Disco de Embrague Scania/MB",
+    description: "Ø 280mm según aplicación. Aplicación 1111/1113/321/609/709/710 11″ 10 estrías.",
+    brand: "Scania / Mercedes-Benz",
+    group: "Embragues",
+    image: "imagesb/d5346.webp"
+  },
+  {
+    id: 3015,
+    code: "D5391",
+    name: "Disco de Embrague",
+    description: "Ø 310 mm. Aplicaciones múltiples 1313/1014/1116/1314/1316/1513/1514/1516/18 13/2013/2014/2213/2214/2216/2217 10 estrías.",
+    brand: "—",
+    group: "Embragues",
+    image: "imagesb/d5391.webp"
+  },
+  {
+    id: 3016,
+    code: "D5326",
+    name: "Disco de Embrague MB",
+    description: "Ø 330 / Ø 350 / Ø 362 mm según versión. Aplicaciones: 1518/1218/1318/1414/1517/1614/1618 y Mercedes Benz 1620 caja ZF.",
+    brand: "Mercedes-Benz",
+    group: "Embragues",
+    image: "imagesb/d5326.webp"
+  },
+  {
+    id: 3017,
+    code: "D5335",
+    name: "Disco de Embrague MB",
+    description: "Ø 350 mm (10 estrías) para Mercedes-Benz 1620 caja ZF. Variantes 18 estrías para otros modelos.",
+    brand: "Mercedes-Benz",
+    group: "Embragues",
+    image: "imagesb/d5335.webp"
+  },
+  {
+    id: 3018,
+    code: "D5536",
+    name: "Disco de Embrague MB",
+    description: "Ø 350 mm (18 estrías) Aplicación: 1420/1620/1621 caja Mercedes.",
+    brand: "Mercedes-Benz",
+    group: "Embragues",
+    image: "imagesb/d5536.webp"
+  },
+  {
+    id: 3019,
+    code: "D5523",
+    name: "Disco de Embrague MB",
+    description: "Ø 362 mm. Aplicación: 710c/712c/1214c/914c/Accelo 915c/Atego/1315c/Lo914/LO915.",
+    brand: "Mercedes-Benz",
+    group: "Embragues",
+    image: "imagesb/d5523.webp"
+  },
+  {
+    id: 3020,
+    code: "D5535",
+    name: "Disco de Embrague MB",
+    description: "Ø 430 mm. Aplicación: 1934/1938-S/1944/Axor/2035/2040/2044/2540/2544 (18 estrías).",
+    brand: "Mercedes-Benz",
+    group: "Embragues",
+    image: "imagesb/d5535.webp"
+  },
+  {
+    id: 3021,
+    code: "D5766",
+    name: "Disco de Embrague MB",
+    description: "Ø 395 mm. Aplicación: 1722/1723/1725/1728/2428 electrónico c/ pre-amortiguación. Referencia en catálogo.",
+    brand: "Mercedes-Benz",
+    group: "Embragues",
+    image: "imagesb/d5766.webp"
+  },
+  {
+    id: 3022,
+    code: "D5336",
+    name: "Disco de Embrague MB",
+    description: "Ø 420 mm. Aplicación: 1924/1929/1630/1932/1933 (embrague empujado) 10 estrías.",
+    brand: "Mercedes-Benz",
+    group: "Embragues",
+    image: "imagesb/d5336.webp"
+  },
+  {
+    id: 3023,
+    code: "D5655",
+    name: "Disco de Embrague MB",
+    description: "V∅ 430 mm Aplicación 1935.",
+    brand: "Mercedes-Benz",
+    group: "Embragues",
+    image: "imagesb/d5655.webp"
+  },
+  {
+    id: 3024,
+    code: "D5705",
+    name: "Disco de Embrague / Kit IVECO",
+    description: "Ø 430 mm. Aplicación: 1935/1938 (10 estrías, caja ZF). También para EuroTech/EuroTrakker/Stralis. Referencias: 1542/5655/5705/3366.",
+    brand: "Iveco",
+    group: "Embragues",
+    image: "imagesb/d5705.webp"
+  },
+  {
+    id: 3025,
+    code: "K6542",
+    name: "Kit de Embrague IVECO",
+    description: "∅ 430 mm Aplicación EURO TECH EURO TRAKKER STRALIS Referencia 1542/5655/5705/3366.",
+    brand: "Iveco",
+    group: "Embragues",
+    image: "imagesb/k6542.webp"
+  },
+  {
+    id: 3026,
+    code: "K6541",
+    name: "Kit de Embrague IVECO",
+    description: "∅ 400 mm Aplicación Cursor CAVALLINO 450e33 Referencia 1641/5641/3366.",
+    brand: "Iveco",
+    group: "Embragues",
+    image: "imagesb/k6541.webp"
+  },
+  {
+    id: 3027,
+    code: "K6543",
+    name: "Kit de Embrague IVECO",
+    description: "∅ 430 mm Aplicación STRALIS Referencia 1542/5704/5705/3366.",
+    brand: "Iveco",
+    group: "Embragues",
+    image: "imagesb/k6543.webp"
+  },
+  {
+    id: 3028,
+    code: "K6751",
+    name: "Kit de Embrague IVECO",
+    description: "Ø 395 mm. Aplicación: Tector 170e28/240e28/260e28/Stradale 240e25s. Referencia: 1751/5751/3401.",
+    brand: "Iveco",
+    group: "Embragues",
+    image: "imagesb/k6751.webp"
+  },
+  {
+    id: 3029,
+    code: "K1583",
+    name: "Kit de Embrague IVECO",
+    description: "Ø 380 mm. Aplicación: Tector 170e25/240e25/260e25. Referencia: 1583/5383/3391.",
+    brand: "Iveco",
+    group: "Embragues",
+    image: "imagesb/k1583.webp"
+  },
+  {
+    id: 3030,
+    code: "D5389",
+    name: "Disco de Embrague Scania",
+    description: "Ø 430 mm. Aplicación: 113 (10 marchas) 22 estrías.",
+    brand: "Scania",
+    group: "Embragues",
+    image: "imagesb/d5389.webp"
+  },
+  {
+    id: 3031,
+    code: "D5722",
+    name: "Disco de Embrague Scania",
+    description: "∅430 mm Solicitud 113 8 marchas 114/124 24 estrías.",
+    brand: "Scania",
+    group: "Embragues",
+    image: "imagesb/d5722.webp"
+  },
+  {
+    id: 3032,
+    code: "D5453",
+    name: "Disco de Embrague Scania",
+    description: "∅ 430 mm Solicitud 114 124 DESPUÉS DE 2008 Reforzado 24 estrías Serie 5.",
+    brand: "Scania",
+    group: "Embragues",
+    image: "imagesb/d5453.webp"
   }
 ];
 
