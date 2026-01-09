@@ -1042,7 +1042,7 @@ const productos = [
     code: "1005",
     name: "MANGUERA DEL INTERCOOLER",
     description: "MANGUERA DEL INTERCOOLER, AXOR, Ø100MM X 205MM, OEM: A9585013382",
-    brand: "AXOR",
+    brand: "Mercedes-benz",
     group: "MANGUERAS",
     image: "images/94.jpg",
   },
@@ -1052,7 +1052,7 @@ const productos = [
     name: "MANGUERA DE CONEXIÓN DEL INTERCOOLER",
     description:
       "MANGUERA DE CONEXIÓN DEL INTERCOOLER, ACTROS, Ø115MM X 212MM, OEM: A0020945582 / A0020946682",
-    brand: "ACTROS",
+    brand: "Mercedes-benz",
     group: "MANGUERAS",
     image: "images/95.jpg",
   },
@@ -1072,7 +1072,7 @@ const productos = [
     name: "MANGUERA DEL INTERCOOLER",
     description:
       "MANGUERA DEL INTERCOOLER, CARGO 1316/ 1317/ 1415/ 1721, Ø76MM X 103MM, OEM: 4C45/6W650/BA",
-    brand: "CARGO 1316/ 1317/ 1415/ 1721",
+    brand: "FORD",
     group: "MANGUERAS",
     image: "images/97.jpg",
   },
@@ -1111,7 +1111,7 @@ const productos = [
     name: "MANGUERA DE CONEXIÓN DE TURBINA",
     description:
       "MANGUERA DE CONEXIÓN DE TURBINA, CARGA PESADA, Ø76MM X 120MM, OEM: 7C45/6C640/AA",
-    brand: "CARGA PESADA",
+    brand: "FORD",
     group: "MANGUERAS",
     image: "images/100.jpg",
   },
@@ -1121,7 +1121,7 @@ const productos = [
     name: "MANGUERA DEL INTERCOOLER",
     description:
       "MANGUERA DEL INTERCOOLER, EUROTECH/ EUROTRAKKER, Ø90MM X 180MM, OEM: 41026109",
-    brand: "EUROTECH/ EUROTRAKKER",
+    brand: "IVECO",
     group: "MANGUERAS",
     image: "images/102.jpg",
   },
@@ -1130,7 +1130,7 @@ const productos = [
     code: "1021",
     name: "MANGUERA DEL INTERCOOLER",
     description: "MANGUERA DEL INTERCOOLER, 112/113/142, Ø 90MM X 150MM, OEM: 488368",
-    brand: "112/113/142",
+    brand: "SCANIA",
     group: "MANGUERAS",
     image: "images/103.jpg",
   },
