@@ -477,7 +477,7 @@ const productos = [
     description:
       "Reparación de barra de acoplamiento PTA. Con buje PTA. Delantera izquierda. Mercedes- Benz HPN 196",
     brand: "Mercedes-benz",
-    group: "Barras",
+    group: "Cerraduras",
     image: "images/43.webp",
   },
   {
@@ -677,7 +677,7 @@ const productos = [
     description:
       "Bloqueo de dirección de columna de dirección con pieza eléctrica y llave - SCANIA 113 88 a 97",
     brand: "SCANIA",
-    group: "Bloqueos",
+    group: "Traba columna dirección",
     image: "images/58.webp",
   },
   {
@@ -733,11 +733,11 @@ const productos = [
   {
     id: 461,
     code: "61168",
-    name: "Tirante de suspension",
+    name: "Tirante de SUSPENSION",
     description:
       "Tirante de susp. Cabine Basculante- SCANIA P após 98 - R após 98 Série IV após 98 - Série V após 98",
     brand: "SCANIA",
-    group: "Suspension",
+    group: "SUSPENSION",
     image: "images/63.webp",
   },
   {
@@ -792,11 +792,11 @@ const productos = [
   {
     id: 47,
     code: "61209",
-    name: "Casquillo de suspensión de la cabina del volquete",
+    name: "Casquillo de SUSPENSION de la cabina del volquete",
     description:
-      "Casquillo de suspensión de la cabina del volquete - SCANIA 112 - 113 98 a 08",
+      "Casquillo de SUSPENSION de la cabina del volquete - SCANIA 112 - 113 98 a 08",
     brand: "SCANIA",
-    group: "Casquillos",
+    group: "Bujes",
     image: "images/69.webp",
   },
   {
@@ -1778,31 +1778,31 @@ const productos = [
   {
     id: 136,
     code: "064",
-    name: "SUSPENSIÓN DE EJE CON RESORTE DE AIRE",
+    name: "SUSPENSION DE EJE CON RESORTE DE AIRE",
     description:
-      "SUSPENSIÓN DE EJE CON RESORTE DE AIRE, Volvo FH / FM 2004 A 2014 TRACCIÓN Y TERCER EJE (MAYOR Ø), OEM: 20582206, FIRESTONE: 950880 / 1T15LNR-6, CONTITECH: 6605 N P01, COMPONENTES: 064 K + 230 BSE KIT DE REPUESTO",
+      "SUSPENSION DE EJE CON RESORTE DE AIRE, Volvo FH / FM 2004 A 2014 TRACCIÓN Y TERCER EJE (MAYOR Ø), OEM: 20582206, FIRESTONE: 950880 / 1T15LNR-6, CONTITECH: 6605 N P01, COMPONENTES: 064 K + 230 BSE KIT DE REPUESTO",
     brand: "Volvo",
-    group: "SUSPENSIÓN",
+    group: "SUSPENSION",
     image: "images/163.jpg",
   },
   {
     id: 137,
     code: "137 EEB",
-    name: "EJE DE SUSPENSIÓN DE RESORTE NEUMÁTICO",
+    name: "EJE DE SUSPENSION DE RESORTE NEUMÁTICO",
     description:
-      "EJE DE SUSPENSIÓN DE RESORTE NEUMÁTICO BASE TRACCIÓN, Volvo FH / FM (Ø MENOR) A PARTIR DE 2004 / SUSPENSIÓN DE EJE Volvo FH / FM A PARTIR DE 2015",
+      "EJE DE SUSPENSION DE RESORTE NEUMÁTICO BASE TRACCIÓN, Volvo FH / FM (Ø MENOR) A PARTIR DE 2004 / SUSPENSION DE EJE Volvo FH / FM A PARTIR DE 2015",
     brand: "Volvo",
-    group: "SUSPENSIÓN",
+    group: "SUSPENSION",
     image: "images/164.jpg",
   },
   {
     id: 138,
     code: "833",
-    name: "RESORTE CONTORNILLADO EJE DE SUSPENSIÓN",
+    name: "RESORTE CONTORNILLADO EJE DE SUSPENSION",
     description:
-      "RESORTE CONTORNILLADO EJE DE SUSPENSIÓN, FACCHINI / HBZ, OEM FACCHINI: 308501702, OEM HBZ: 8000-26, FIRESTONE: 950352 / 333, CONTITECH: FT 530-35 846, GOODYEAR: 8457",
+      "RESORTE CONTORNILLADO EJE DE SUSPENSION, FACCHINI / HBZ, OEM FACCHINI: 308501702, OEM HBZ: 8000-26, FIRESTONE: 950352 / 333, CONTITECH: FT 530-35 846, GOODYEAR: 8457",
     brand: "ACOPLADOS",
-    group: "SUSPENSIÓN",
+    group: "SUSPENSION",
     image: "images/165.jpg",
   },
   {
@@ -1810,39 +1810,39 @@ const productos = [
     code: "858",
     name: "RESORTE CONTORNILLADO",
     description:
-      "RESORTE CONTORNILLADO, RANDON / SUSPENSYS / WAR / AMERICA / EJE DE SUSPENSIÓN IBERO, OEM RANDON - SUSPENSYS: 212100278, OEM WAR: 5036002015006, OEM IBERO MOP: 059 000 003, CONTITECH: FD 200-19 810, GOODYEAR: 8520",
+      "RESORTE CONTORNILLADO, RANDON / SUSPENSYS / WAR / AMERICA / EJE DE SUSPENSION IBERO, OEM RANDON - SUSPENSYS: 212100278, OEM WAR: 5036002015006, OEM IBERO MOP: 059 000 003, CONTITECH: FD 200-19 810, GOODYEAR: 8520",
     brand: "ACOPLADOS",
-    group: "SUSPENSIÓN",
+    group: "SUSPENSION",
     image: "images/166.jpg",
   },
   {
     id: 140,
     code: "064 K",
-    name: "SIN BASE SUSPENSIÓN DE EJE CON RESORTE DE AIRE",
+    name: "SIN BASE SUSPENSION DE EJE CON RESORTE DE AIRE",
     description:
-      "SIN BASE SUSPENSIÓN DE EJE CON RESORTE DE AIRE, Volvo FH / FM 2004 A 2014 TRACCIÓN Y TERCER EJE (MAYOR Ø), OEM: 20582206, FIRESTONE: 950880 / 1T15LNR-6, CONTITECH: 6605 N P01",
+      "SIN BASE SUSPENSION DE EJE CON RESORTE DE AIRE, Volvo FH / FM 2004 A 2014 TRACCIÓN Y TERCER EJE (MAYOR Ø), OEM: 20582206, FIRESTONE: 950880 / 1T15LNR-6, CONTITECH: 6605 N P01",
     brand: "Volvo",
-    group: "SUSPENSIÓN",
+    group: "SUSPENSION",
     image: "images/167.jpg",
   },
   {
     id: 141,
     code: "137 / 137 K",
-    name: "SIN BASE SUSPENSIÓN DE EJE CON RESORTE DE AIRE TRACCIÓN",
+    name: "SIN BASE SUSPENSION DE EJE CON RESORTE DE AIRE TRACCIÓN",
     description:
-      "SIN BASE SUSPENSIÓN DE EJE CON RESORTE DE AIRE TRACCIÓN, Volvo FH / FM 2004 A 2014 (Ø MENOR), OEM: 20582215 / 21961456, FIRESTONE: 950881 / 1T15UR-9 / W01-M58-8474, CONTINTECH: 6608 - NP01, COMPONENTES: 137 K + 137 BSE KIT DE REPUESTO",
+      "SIN BASE SUSPENSION DE EJE CON RESORTE DE AIRE TRACCIÓN, Volvo FH / FM 2004 A 2014 (Ø MENOR), OEM: 20582215 / 21961456, FIRESTONE: 950881 / 1T15UR-9 / W01-M58-8474, CONTINTECH: 6608 - NP01, COMPONENTES: 137 K + 137 BSE KIT DE REPUESTO",
     brand: "Volvo",
-    group: "SUSPENSIÓN",
+    group: "SUSPENSION",
     image: "images/168.jpg",
   },
   {
     id: 142,
     code: "853",
-    name: "RESORTE CONTORNILLADO EJE DE SUSPENSIÓN",
+    name: "RESORTE CONTORNILLADO EJE DE SUSPENSION",
     description:
-      "RESORTE CONTORNILLADO EJE DE SUSPENSIÓN, RANDON / JO/ SUSPENSYS / RODOFORT, OEM RANDON / JOST: AD00076J00 / 212100337, FIRESTONE: 950313 / 20, CONTITECH: FD 200-19 823, GOODYEAR: 8521",
+      "RESORTE CONTORNILLADO EJE DE SUSPENSION, RANDON / JO/ SUSPENSYS / RODOFORT, OEM RANDON / JOST: AD00076J00 / 212100337, FIRESTONE: 950313 / 20, CONTITECH: FD 200-19 823, GOODYEAR: 8521",
     brand: "ACOPLADOS",
-    group: "SUSPENSIÓN",
+    group: "SUSPENSION",
     image: "images/169.jpg",
   },{
     id: 2000,
@@ -1850,7 +1850,7 @@ const productos = [
     name: "AMORTIGUADORES de cabina",
     description: "AMORTIGUADORES de cabina para SCANIA Serie 4 y 5.",
     brand: "SCANIA",
-    group: "AMORTIGUADORES de cabina",
+    group: "AMORTIGUADORES",
     image: "imagesb/001.jpg"
   },
   {
@@ -1859,7 +1859,7 @@ const productos = [
     name: "AMORTIGUADORES de cabina",
     description: "AMORTIGUADORES de cabina para SCANIA Serie 3.",
     brand: "SCANIA",
-    group: "AMORTIGUADORES de cabina",
+    group: "AMORTIGUADORES",
     image: "imagesb/003.jpg"
   },
   {
@@ -1868,7 +1868,7 @@ const productos = [
     name: "Conjunto resorte neumático de cabina",
     description: "Conjunto de resorte neumático de cabina para SCANIA Serie 4 y 5.",
     brand: "SCANIA",
-    group: "Resortes",
+    group: "RESORTES",
     image: "imagesb/009.jpg"
   },
   {
@@ -1877,7 +1877,7 @@ const productos = [
     name: "Conjunto resorte neumático cabina trasero",
     description: "Conjunto de resorte neumático de cabina trasera para SCANIA Serie 3.",
     brand: "SCANIA",
-    group: "Resortes",
+    group: "RESORTES",
     image: "imagesb/013ag.jpg"
   },
   {
@@ -1886,7 +1886,7 @@ const productos = [
     name: "Resorte neumático de cabina trasero",
     description: "Resorte neumático de cabina trasero para SCANIA Serie 3 - R (1991–1998).",
     brand: "SCANIA",
-    group: "Resortes",
+    group: "RESORTES",
     image: "imagesb/014ag.jpg"
   },
   {
@@ -1895,16 +1895,16 @@ const productos = [
     name: "Resorte neumático de cabina",
     description: "Resorte neumático de cabina delantero y trasero para SCANIA Serie 4 y 5 (P/G/R 2004–2011).",
     brand: "SCANIA",
-    group: "Resortes",
+    group: "RESORTES",
     image: "imagesb/015ag.jpg"
   },
   {
     id: 2006,
     code: "035 AG",
-    name: "Suspensión de eje con resorte de aire",
-    description: "Suspensión de eje con resorte de aire compatible con Facchini / HBZ.",
+    name: "SUSPENSION de eje con resorte de aire",
+    description: "SUSPENSION de eje con resorte de aire compatible con Facchini / HBZ.",
     brand: "ACOPLADOS",
-    group: "Suspensión de eje con resorte de aire",
+    group: "SUSPENSION de eje con resorte de aire",
     image: "imagesb/035ag.jpg"
   },
   {
@@ -1913,7 +1913,7 @@ const productos = [
     name: "Conjunto resorte neumático cabina trasero",
     description: "Conjunto de resorte neumático de cabina trasero para SCANIA Serie 4 y 5.",
     brand: "SCANIA",
-    group: "Resortes",
+    group: "RESORTES",
     image: "imagesb/057.jpg"
   },
   {
@@ -1922,16 +1922,16 @@ const productos = [
     name: "AMORTIGUADORES de cabina trasero/horizontal",
     description: "AMORTIGUADORES de cabina trasero/horizontal para Volvo FH (1993–2014) y FM (2000–2014).",
     brand: "Volvo",
-    group: "AMORTIGUADORES de cabina",
+    group: "AMORTIGUADORES",
     image: "imagesb/063ag.jpg"
   },
   {
     id: 2009,
     code: "064 K",
-    name: "Suspensión de eje con resorte de aire",
-    description: "Suspensión de eje con resorte de aire para Volvo FH / FM (2004–2014).",
+    name: "SUSPENSION de eje con resorte de aire",
+    description: "SUSPENSION de eje con resorte de aire para Volvo FH / FM (2004–2014).",
     brand: "Volvo",
-    group: "Suspensión de eje con resorte de aire",
+    group: "SUSPENSION de eje con resorte de aire",
     image: "imagesb/064k.jpg"
   },
   {
@@ -1940,7 +1940,7 @@ const productos = [
     name: "Conjunto resorte de bobina de cabina trasero",
     description: "Conjunto de resorte de bobina de cabina trasero para Volvo FM (2000–2014) y FMX (2011–2014).",
     brand: "Volvo",
-    group: "Resortes de bobina de cabina",
+    group: "RESORTES de bobina de cabina",
     image: "imagesb/095.jpg"
   },
   {
@@ -2099,19 +2099,19 @@ const productos = [
   {
     id: 2026,
     code: "137",
-    name: "Suspensión de eje con resorte de aire",
-    description: "Suspensión de eje con resorte de aire para Volvo FH / FM (2004–2014).",
+    name: "SUSPENSION de eje con resorte de aire",
+    description: "SUSPENSION de eje con resorte de aire para Volvo FH / FM (2004–2014).",
     brand: "Volvo",
-    group: "Suspensión de eje con resorte de aire",
+    group: "SUSPENSION de eje con resorte de aire",
     image: "imagesb/137.jpg"
   },
   {
     id: 20262,
     code: "137k",
-    name: "Suspensión de eje con resorte de aire (sin base)",
-    description: "Suspensión de eje con resorte de aire sin base para Volvo FH / FM (2004–2014).",
+    name: "SUSPENSION de eje con resorte de aire (sin base)",
+    description: "SUSPENSION de eje con resorte de aire sin base para Volvo FH / FM (2004–2014).",
     brand: "Volvo",
-    group: "Suspensión de eje con resorte de aire",
+    group: "SUSPENSION de eje con resorte de aire",
     image: "imagesb/137k.jpg"
   },
   {
@@ -2120,7 +2120,7 @@ const productos = [
     name: "Conjunto resorte neumático cabina delantero",
     description: "Conjunto de resorte neumático de cabina delantero SCANIA serie 5 - G/R 2012 A 2018.",
     brand: "SCANIA",
-    group: "Resortes",
+    group: "RESORTES",
     image: "imagesb/172.jpg"
   },
   {
@@ -2129,7 +2129,7 @@ const productos = [
     name: "Resorte neumático cabina delantero",
     description: "RESORTE NEUMÁTICO DE CABINA Mercedes-benz ACTROS 2010 AL 2020 (EXCEPTO ACTROS NUEVOS) DELANTERO.",
     brand: "Mercedes-benz",
-    group: "Suspensión",
+    group: "SUSPENSION",
     image: "imagesb/173b.jpg"
   },
   {
@@ -2138,7 +2138,7 @@ const productos = [
     name: "Resorte neumático de cabina trasero (repuesto)",
     description: "Resorte neumático de cabina trasero (repuesto) para Mercedes-benz Axor Serie 20 (desde 2006), Actros hasta 2020 (excepto Axor 1933) y Atego cabina dormitorio desde 2013.",
     brand: "Mercedes-benz",
-    group: "Resortes",
+    group: "RESORTES",
     image: "imagesb/174b.jpg"
    },
   {
@@ -2147,7 +2147,7 @@ const productos = [
     name: "Conjunto resorte neumático cabina trasero",
     description: "Conjunto de resorte neumático de cabina trasero para Mercedes-benz Axor Serie 20 (2006–2023, excepto Axor 1933), Actros (2010–2020, excepto nuevo), Atego Cabina-Litera (2013+).",
     brand: "Mercedes-benz",
-    group: "Resortes",
+    group: "RESORTES",
     image: "imagesb/174.jpg"
    },
   {
@@ -2156,7 +2156,7 @@ const productos = [
     name: "Conjunto resorte neumático cabina delantero",
     description: "Conjunto de resorte neumático de cabina delantero para Volvo FH (2004–2014).",
     brand: "Volvo",
-    group: "Resortes",
+    group: "RESORTES",
     image: "imagesb/184.jpg"
    },
   {
@@ -2165,7 +2165,7 @@ const productos = [
     name: "Conjunto resorte neumático cabina trasero",
     description: "Conjunto de resorte neumático de cabina trasero para Volvo FH (2004–2014).",
     brand: "Volvo",
-    group: "Resortes",
+    group: "RESORTES",
     image: "imagesb/186.jpg"
   },
   {
@@ -2174,7 +2174,7 @@ const productos = [
     name: "AMORTIGUADORES de cabina delantero neumático",
     description: "AMORTIGUADORES de cabina delantero neumático para SCANIA Serie 5 R Highline/Streamline (2012–2018).",
     brand: "SCANIA",
-    group: "AMORTIGUADORES de cabina",
+    group: "AMORTIGUADORES",
     image: "imagesb/211.jpg"
   },  {
     id: 20365,
@@ -2182,7 +2182,7 @@ const productos = [
     name: "AMORTIGUADORES de cabina delantero neumático",
     description: "AMORTIGUADORES de cabina delantero neumático para SCANIA Serie 5 - G/R (2012–2018).",
     brand: "SCANIA",
-    group: "AMORTIGUADORES de cabina",
+    group: "AMORTIGUADORES",
     image: "imagesb/213.jpg"
   },
   {
@@ -2191,7 +2191,7 @@ const productos = [
     name: "Conjunto resorte neumático cabina traser",
     description: "Conjunto de resorte neumático de cabina trasero para IVECO Hi Way (2013–2023).",
     brand: "IVECO",
-    group: "Resortes",
+    group: "RESORTES",
     image: "imagesb/337.jpg"
   },
   {
@@ -2206,10 +2206,10 @@ const productos = [
   {
     id: 2039,
     code: "853",
-    name: "Resorte enroscado (suspensión de eje)",
-    description: "Resorte enroscado para eje de suspensión Randon/Jost/Suspensys/Rodofort. OEM Randon/Jost: AD00076J00 / 212100337.",
+    name: "Resorte enroscado (SUSPENSION de eje)",
+    description: "Resorte enroscado para eje de SUSPENSION Randon/Jost/Suspensys/Rodofort. OEM Randon/Jost: AD00076J00 / 212100337.",
     brand: "ACOPLADOS",
-    group: "Resortes enroscados (suspensión de eje)",
+    group: "RESORTES enroscados (SUSPENSION de eje)",
     image: "imagesb/853.jpg"
   },
   {
@@ -2218,16 +2218,16 @@ const productos = [
     name: "Conjunto resorte de bobina de cabina delantero",
     description: "Conjunto de resorte de bobina de cabina delantero para FORD Cargo Sleeper Cab (2011–2019).",
     brand: "FORD",
-    group: "Resortes de bobina de cabina",
+    group: "RESORTES de bobina de cabina",
     image: "imagesb/343.jpg"
   },
   {
     id: 2041,
     code: "833",
-    name: "Resorte enroscado (suspensión eje)",
-    description: "Resorte enroscado para suspensión de eje Facchini/HBZ.",
+    name: "Resorte enroscado (SUSPENSION eje)",
+    description: "Resorte enroscado para SUSPENSION de eje Facchini/HBZ.",
     brand: "ACOPLADOS",
-    group: "Resortes enroscados (suspensión de eje)",
+    group: "RESORTES enroscados (SUSPENSION de eje)",
     image: "imagesb/833.jpg"
   },
   {
@@ -2236,25 +2236,25 @@ const productos = [
      name: "Conjunto resorte neumatico de cabina delantero",
     description: "Conjunto de resorte neumático de cabina delantero para IVECO Hi Way (2013–2023).",
     brand: "FORD",
-    group: "Resortes ",
+    group: "RESORTES ",
     image: "imagesb/362.jpg"
   },
  {
     id: 2044,
     code: "858",
-    name: "Resorte enroscado (suspensión de eje)",
+    name: "Resorte enroscado (SUSPENSION de eje)",
     description: "Resorte enroscado para Randon/Suspensys/Guerra/America/Ibero (eje suspensor).",
     brand: "ACOPLADOS",
-    group: "Resortes",
+    group: "RESORTES",
     image: "imagesb/858.jpg"
   },
   {
     id: 2045,
     code: "870",
-    name: "Resorte enroscado (suspensión eje)",
-    description: "Resorte enroscado para suspensión de eje (Facchini/Rodofort).",
+    name: "Resorte enroscado (SUSPENSION eje)",
+    description: "Resorte enroscado para SUSPENSION de eje (Facchini/Rodofort).",
     brand: "ACOPLADOS",
-    group: "Resortes",
+    group: "RESORTES",
     image: "imagesb/870.jpg"
   },
   {
