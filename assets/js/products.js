@@ -281,7 +281,7 @@ const productos = [
     name: "Juego de goma de guardabarros de PVC",
     description: "Juego de goma de guardabarros de PVC - Mercedes-benz 1111-1113",
     brand: "Mercedes-benz",
-    group: "Juegos de Goma",
+    group: "Burletes",
     image: "images/25.webp",
   },
   {
@@ -1904,7 +1904,7 @@ const productos = [
     name: "SUSPENSION de eje con resorte de aire",
     description: "SUSPENSION de eje con resorte de aire compatible con Facchini / HBZ.",
     brand: "ACOPLADOS",
-    group: "SUSPENSION de eje con resorte de aire",
+    group: "SUSPENSION",
     image: "imagesb/035ag.jpg"
   },
   {
@@ -1931,7 +1931,7 @@ const productos = [
     name: "SUSPENSION de eje con resorte de aire",
     description: "SUSPENSION de eje con resorte de aire para Volvo FH / FM (2004–2014).",
     brand: "Volvo",
-    group: "SUSPENSION de eje con resorte de aire",
+    group: "SUSPENSION",
     image: "imagesb/064k.jpg"
   },
   {
@@ -1940,7 +1940,7 @@ const productos = [
     name: "Conjunto resorte de bobina de cabina trasero",
     description: "Conjunto de resorte de bobina de cabina trasero para Volvo FM (2000–2014) y FMX (2011–2014).",
     brand: "Volvo",
-    group: "RESORTES de bobina de cabina",
+    group: "RESORTES",
     image: "imagesb/095.jpg"
   },
   {
@@ -1949,7 +1949,7 @@ const productos = [
     name: "Manguera del intercooler",
     description: "Manguera del intercooler para Mercedes-benz 1620/1720/OF1721/1726/1723K/1723S/1938.",
     brand: "Mercedes-benz",
-    group: "Mangueras",
+    group: "MANGUERAS",
     image: "imagesb/1001.jpg"
   },
   {
@@ -1958,7 +1958,7 @@ const productos = [
     name: "Manguera del intercooler",
     description: "Manguera del intercooler para IVECO Nuevo Stralis / Stralis / Nuevo Trakker.",
     brand: "IVECO",
-    group: "Mangueras",
+    group: "MANGUERAS",
     image: "imagesb/1004.jpg"
   },
   {
@@ -1967,7 +1967,7 @@ const productos = [
     name: "Manguera del intercooler",
     description: "Manguera del intercooler para Mercedes-benz Axor.",
     brand: "Mercedes-benz",
-    group: "Mangueras",
+    group: "MANGUERAS",
     image: "imagesb/1005.jpg"
   },
   {
@@ -1976,7 +1976,7 @@ const productos = [
     name: "Manguera de refrigeracion",
     description: "Manguera de refrigeracion para Mercedes-benz actros.",
     brand: "Mercedes-benz",
-    group: "Mangueras",
+    group: "MANGUERAS",
     image: "imagesb/1006.jpg"
   },
   {
@@ -1985,7 +1985,7 @@ const productos = [
     name: "Manguera de conexion del intercooler",
     description: "Manguera del intercooler para para Mercedes-benz actros.",
     brand: "Mercedes-benz",
-    group: "Mangueras",
+    group: "MANGUERAS",
     image: "imagesb/1007.jpg"
   },
   {
@@ -1994,7 +1994,7 @@ const productos = [
     name: "Manguera de turbina",
     description: "Manguera de turbina para SCANIA Serie 3 (111/112/113/143).",
     brand: "SCANIA",
-    group: "Mangueras",
+    group: "MANGUERAS",
     image: "imagesb/1010.jpg"
   },
   {
@@ -2003,7 +2003,7 @@ const productos = [
     name: "Manguera del intercooler",
     description: "Manguera del intercooler P96.",
     brand: "SCANIA",
-    group: "Mangueras",
+    group: "MANGUERAS",
     image: "imagesb/1011.jpg"
   },
   {
@@ -2012,7 +2012,7 @@ const productos = [
     name: "Manguera de conexión de turbina",
     description: "Manguera de conexión de turbina para carga pesada (SCANIA).",
     brand: "SCANIA",
-    group: "Mangueras",
+    group: "MANGUERAS",
     image: "imagesb/1016.jpg"
   },
   {
@@ -2021,7 +2021,7 @@ const productos = [
     name: "Manguera del intercooler",
     description: "Manguera del intercooler carga 1316/1317/1415/1721.",
     brand: "SCANIA",
-    group: "Mangueras",
+    group: "MANGUERAS",
     image: "imagesb/1017.jpg"
   },
   {
@@ -2030,7 +2030,7 @@ const productos = [
     name: "Manguera del intercooler",
     description: "Manguera del intercooler para IVECO EuroTech / EuroTrakker.",
     brand: "IVECO",
-    group: "Mangueras",
+    group: "MANGUERAS",
     image: "imagesb/1018.jpg"
   },
   {
@@ -2039,7 +2039,7 @@ const productos = [
     name: "Manguera del intercooler",
     description: "Manguera del intercooler 112/113/142.",
     brand: "Mercedes-benz",
-    group: "Mangueras",
+    group: "MANGUERAS",
     image: "imagesb/1021.jpg"
   },
   {
@@ -2048,7 +2048,7 @@ const productos = [
     name: "Manguera de conexión de turbina",
     description: "Manguera de conexión de turbina para FORD Cargo.",
     brand: "FORD",
-    group: "Mangueras",
+    group: "MANGUERAS",
     image: "imagesb/1023.jpg"
   },
   {
@@ -2057,7 +2057,7 @@ const productos = [
     name: "Manguera del intercooler",
     description: "Manguera del intercooler para IVECO Nuevo Stralis / Stralis / Nuevo Trakker.",
     brand: "IVECO",
-    group: "Mangueras",
+    group: "MANGUERAS",
     image: "imagesb/1026.jpg"
   },
   {
@@ -2066,7 +2066,7 @@ const productos = [
     name: "Manguera del intercooler",
     description: "Manguera del intercooler para IVECO EuroTech.",
     brand: "IVECO",
-    group: "Mangueras",
+    group: "MANGUERAS",
     image: "imagesb/1027.jpg"
   },
   {
@@ -2075,7 +2075,7 @@ const productos = [
     name: "Manguera del intercooler",
     description: "Manguera del intercooler OH1625/ OH1630/ OH1628/O400.",
     brand: "Mercedes-benz",
-    group: "Mangueras",
+    group: "MANGUERAS",
     image: "imagesb/1028.jpg"
   },
     {
@@ -2084,7 +2084,7 @@ const productos = [
     name: "Conjunto resorte de bobina de cabina delantero",
     description: "Conjunto de resorte de BOBINA DE CABINA Mercedes-benz AXOR ROAD TODOS LOS SERIE 20 2006 A 2023 DELANTERO.",
     brand: "Mercedes-benz",
-    group: "Mangueras",
+    group: "MANGUERAS",
     image: "imagesb/106.jpg"
   },
      {
@@ -2093,7 +2093,7 @@ const productos = [
     name: "Conjunto resorte de bobina de cabina trasero",
     description: "Conjunto de resorte neumático de cabina para SCANIA SERIE 5 - P/G/R 2012 A 2018 TRASERO.",
     brand: "Mercedes-benz",
-    group: "Mangueras",
+    group: "MANGUERAS",
     image: "imagesb/132.jpg"
   },
   {
@@ -2102,7 +2102,7 @@ const productos = [
     name: "SUSPENSION de eje con resorte de aire",
     description: "SUSPENSION de eje con resorte de aire para Volvo FH / FM (2004–2014).",
     brand: "Volvo",
-    group: "SUSPENSION de eje con resorte de aire",
+    group: "SUSPENSION",
     image: "imagesb/137.jpg"
   },
   {
@@ -2111,7 +2111,7 @@ const productos = [
     name: "SUSPENSION de eje con resorte de aire (sin base)",
     description: "SUSPENSION de eje con resorte de aire sin base para Volvo FH / FM (2004–2014).",
     brand: "Volvo",
-    group: "SUSPENSION de eje con resorte de aire",
+    group: "SUSPENSION",
     image: "imagesb/137k.jpg"
   },
   {
@@ -2218,7 +2218,7 @@ const productos = [
     name: "Conjunto resorte de bobina de cabina delantero",
     description: "Conjunto de resorte de bobina de cabina delantero para FORD Cargo Sleeper Cab (2011–2019).",
     brand: "FORD",
-    group: "RESORTES de bobina de cabina",
+    group: "RESORTES",
     image: "imagesb/343.jpg"
   },
   {
