@@ -2209,7 +2209,7 @@ const productos = [
     name: "Resorte enroscado (SUSPENSION de eje)",
     description: "Resorte enroscado para eje de SUSPENSION Randon/Jost/Suspensys/Rodofort. OEM Randon/Jost: AD00076J00 / 212100337.",
     brand: "ACOPLADOS",
-    group: "RESORTES enroscados (SUSPENSION de eje)",
+    group: "RESORTES",
     image: "imagesb/853.jpg"
   },
   {
@@ -2227,7 +2227,7 @@ const productos = [
     name: "Resorte enroscado (SUSPENSION eje)",
     description: "Resorte enroscado para SUSPENSION de eje Facchini/HBZ.",
     brand: "ACOPLADOS",
-    group: "RESORTES enroscados (SUSPENSION de eje)",
+    group: "RESORTES",
     image: "imagesb/833.jpg"
   },
   {
