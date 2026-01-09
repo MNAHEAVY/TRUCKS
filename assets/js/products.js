@@ -4,8 +4,8 @@ const productos = [
     code: "10223",
     name: "Tapón del depósito de combustible",
     description:
-      "Tapón del depósito de combustible. Plástico con rosca exterior. Sellado con llave - Ford Sapão 90-02 - Seat Inca 95-03 - Agrale",
-    brand: "Ford",
+      "Tapón del depósito de combustible. Plástico con rosca exterior. Sellado con llave - FORD Sapão 90-02 - Seat Inca 95-03 - Agrale",
+    brand: "FORD",
     group: "Tapones",
     image: "images/1.webp",
   },
@@ -14,8 +14,8 @@ const productos = [
     code: "10239",
     name: "Tapa de combustible",
     description:
-      " Con trinquete sellado - Sin llave SCANIA 113 88 a 97 - Camiones GM 86 a 97 - Ford Cargo 814 96 a 01",
-    brand: "Ford",
+      " Con trinquete sellado - Sin llave SCANIA 113 88 a 97 - Camiones GM 86 a 97 - FORD Cargo 814 96 a 01",
+    brand: "FORD",
     group: "Tapones",
     image: "images/doss.webp",
   },
@@ -24,7 +24,7 @@ const productos = [
     code: "10293",
     name: " Tapón de combustible ",
     description:
-      "Tapón de combustible Valvulado - Con llave - Tanque con rosca interna - VW 15-190 después de 05 / Ford F-4000 después de 05",
+      "Tapón de combustible Valvulado - Con llave - Tanque con rosca interna - VW 15-190 después de 05 / FORD F-4000 después de 05",
     brand: "Volkswagen",
     group: "Tapones",
     image: "images/trees.webp",
@@ -62,7 +62,7 @@ const productos = [
     code: "10215",
     name: "Tapón de combustible",
     description:
-      "Tapón de combustible. Sellado. Con boquilla de 105 mm y llave Ford Sapão 90 al 02 - Agrale Agrale 87 al 88 - Volvo 420",
+      "Tapón de combustible. Sellado. Con boquilla de 105 mm y llave FORD Sapão 90 al 02 - Agrale Agrale 87 al 88 - Volvo 420",
     brand: "Volvo",
     group: "Tapones",
     image: "images/11.webp",
@@ -72,8 +72,8 @@ const productos = [
     code: "10216",
     name: "Tapón de combustible",
     description:
-      "Tapón de combustible. - Sellado con llave - Ford Cargo 85 a 01 F-4000 4.3 72 a 99 - Camionetas GM 86 a 97",
-    brand: "Ford",
+      "Tapón de combustible. - Sellado con llave - FORD Cargo 85 a 01 F-4000 4.3 72 a 99 - Camionetas GM 86 a 97",
+    brand: "FORD",
     group: "Tapones",
     image: "images/12.webp",
   },
@@ -150,7 +150,7 @@ const productos = [
     code: "10521",
     name: "Tapa de depósito UREA 32",
     description:
-      " Tapa de depósito UREA 32. Con llave. Ford Cargo GI después del 85, Cargo GII después del 11 y Mercedes-benz Actros después del 10.",
+      " Tapa de depósito UREA 32. Con llave. FORD Cargo GI después del 85, Cargo GII después del 11 y Mercedes-benz Actros después del 10.",
     brand: "Mercedes-benz",
     group: "Tapas",
     image: "images/13.webp",
@@ -160,7 +160,7 @@ const productos = [
     code: "10541",
     name: "Tapón de combustible",
     description:
-      "Depósito de plástico con rosca exterior. Sellado con llave - Ford Sapão 90 a 02 - Camiones SCANIA - Agrale Agrale",
+      "Depósito de plástico con rosca exterior. Sellado con llave - FORD Sapão 90 a 02 - Camiones SCANIA - Agrale Agrale",
     brand: "SCANIA",
     group: "Tapones",
     image: "images/14.webp",
@@ -170,7 +170,7 @@ const productos = [
     code: "10542",
     name: "Tapón de combustible",
     description:
-      "Tapón de combustible. Sellado. Con llave. Depósito de plástico. Con rosca interna - Borde alto - Ford Cargo después de 2012 - Camiones Mercedes-benz.",
+      "Tapón de combustible. Sellado. Con llave. Depósito de plástico. Con rosca interna - Borde alto - FORD Cargo después de 2012 - Camiones Mercedes-benz.",
     brand: "Mercedes-benz",
     group: "Tapones",
     image: "images/15.webp",
@@ -200,8 +200,8 @@ const productos = [
     code: "30135",
     name: "Cerradura mecánica de la puerta delantera",
     description:
-      "Cerradura mecánica de la puerta delantera - Izquierda - Ford Cargo GI después del 85",
-    brand: "Ford",
+      "Cerradura mecánica de la puerta delantera - Izquierda - FORD Cargo GI después del 85",
+    brand: "FORD",
     group: "Cerraduras",
     image: "images/17.webp",
   },
@@ -210,8 +210,8 @@ const productos = [
     code: "30136",
     name: "Cerradura mecánica de la puerta delantera derecha",
     description:
-      "Cerradura mecánica de la puerta delantera derecha - Ford Cargo GI después del 85",
-    brand: "Ford",
+      "Cerradura mecánica de la puerta delantera derecha - FORD Cargo GI después del 85",
+    brand: "FORD",
     group: "Cerraduras",
     image: "images/18.webp",
   },
@@ -1062,7 +1062,7 @@ const productos = [
     name: "MANGUERA DEL INTERCOOLER",
     description:
       "MANGUERA DEL INTERCOOLER, P96, Ø65MM X 65MM, OEM: 1347080/1546550 / 1543023",
-    brand: "P96",
+    brand: "SCANIA",
     group: "MANGUERAS",
     image: "images/96.jpg",
   },
@@ -1140,7 +1140,7 @@ const productos = [
     name: "MANGUERA DEL INTERCOOLER",
     description:
       "MANGUERA DEL INTERCOOLER, NUEVO STRALIS / STRALIS / NUEVO TRAKKER, Ø90MM X 200MM, OEM: 5801688744",
-    brand: "NUEVO STRALIS / STRALIS / NUEVO TRAKKER",
+    brand: "IVECO",
     group: "MANGUERAS",
     image: "images/102.jpg",
   },
@@ -1160,7 +1160,7 @@ const productos = [
     description:
       "MANGUERA DE CONEXIÓN DE TURBINA, FORD CARGO 1622 / 1722 / 2422 / 2622 / 2425 / 2626 / 1630 / 1731 / 4030 / 4031 / 2631 / 1630 ARG / 4331 / 2622 / 2626 / 4031 / 3222 / 2422 / 1722 / 1731 / 1730 ARG VW CONSTELLATION 24-250 / 26-260 / 31-260 / 31-320 / 31-370 / 25-320 / 26-370 TRABAJADOR: 15-170 / 15-180 / 15-190 / 17-250 / 24-250 / 31-260/ 17-180/ 24-220 BUS - 15-180/ 15-190/17-210/ 17-230 EOD/ 17-260 EOT/ 18-320 EOT, Ø76MM X 85MM, OEM FORD: 2C45/6W650/AB, OEM Volkswagen: 2TC 117231",
     brand:
-      "FORD CARGO 1622 / 1722 / 2422 / 2622 / 2425 / 2626 / 1630 / 1731 / 4030 / 4031 / 2631 / 1630 ARG / 4331 / 2622 / 2626 / 4031 / 3222 / 2422 / 1722 / 1731 / 1730 ARG VW CONSTELLATION 24-250 / 26-260 / 31-260 / 31-320 / 31-370 / 25-320 / 26-370 TRABAJADOR: 15-170 / 15-180 / 15-190 / 17-250 / 24-250 / 31-260/ 17-180/ 24-220 BUS - 15-180/ 15-190/17-210/ 17-230 EOD/ 17-260 EOT/ 18-320 EOT",
+      "FORD",
     group: "MANGUERAS",
     image: "images/105.jpg",
   },
@@ -1170,7 +1170,7 @@ const productos = [
     name: "MANGUERA DEL INTERCOOLER",
     description:
       "MANGUERA DEL INTERCOOLER, OH1625/ OH1630/ OH1628/ O400, Ø100MM X 220MM, OEM: A3865288182",
-    brand: "OH1625/ OH1630/ OH1628/ O400",
+    brand: "Mercedes-benz",
     group: "MANGUERAS",
     image: "images/106.jpg",
   },
@@ -1801,7 +1801,7 @@ const productos = [
     name: "RESORTE CONTORNILLADO EJE DE SUSPENSIÓN",
     description:
       "RESORTE CONTORNILLADO EJE DE SUSPENSIÓN, FACCHINI / HBZ, OEM FACCHINI: 308501702, OEM HBZ: 8000-26, FIRESTONE: 950352 / 333, CONTITECH: FT 530-35 846, GOODYEAR: 8457",
-    brand: null,
+    brand: "ACOPLADOS",
     group: "SUSPENSIÓN",
     image: "images/165.jpg",
   },
@@ -1811,7 +1811,7 @@ const productos = [
     name: "RESORTE CONTORNILLADO",
     description:
       "RESORTE CONTORNILLADO, RANDON / SUSPENSYS / WAR / AMERICA / EJE DE SUSPENSIÓN IBERO, OEM RANDON - SUSPENSYS: 212100278, OEM WAR: 5036002015006, OEM IBERO MOP: 059 000 003, CONTITECH: FD 200-19 810, GOODYEAR: 8520",
-    brand: null,
+    brand: "ACOPLADOS",
     group: "SUSPENSIÓN",
     image: "images/166.jpg",
   },
@@ -1841,7 +1841,7 @@ const productos = [
     name: "RESORTE CONTORNILLADO EJE DE SUSPENSIÓN",
     description:
       "RESORTE CONTORNILLADO EJE DE SUSPENSIÓN, RANDON / JO/ SUSPENSYS / RODOFORT, OEM RANDON / JOST: AD00076J00 / 212100337, FIRESTONE: 950313 / 20, CONTITECH: FD 200-19 823, GOODYEAR: 8521",
-    brand: null,
+    brand: "ACOPLADOS",
     group: "SUSPENSIÓN",
     image: "images/169.jpg",
   },{
@@ -1903,7 +1903,7 @@ const productos = [
     code: "035 AG",
     name: "Suspensión de eje con resorte de aire",
     description: "Suspensión de eje con resorte de aire compatible con Facchini / HBZ.",
-    brand: "Facchini/HBZ",
+    brand: "ACOPLADOS",
     group: "Suspensión de eje con resorte de aire",
     image: "imagesb/035ag.jpg"
   },
@@ -2046,8 +2046,8 @@ const productos = [
     id: 2022,
     code: "1023",
     name: "Manguera de conexión de turbina",
-    description: "Manguera de conexión de turbina para Ford Cargo.",
-    brand: "Ford",
+    description: "Manguera de conexión de turbina para FORD Cargo.",
+    brand: "FORD",
     group: "Mangueras",
     image: "imagesb/1023.jpg"
   },
@@ -2208,7 +2208,7 @@ const productos = [
     code: "853",
     name: "Resorte enroscado (suspensión de eje)",
     description: "Resorte enroscado para eje de suspensión Randon/Jost/Suspensys/Rodofort. OEM Randon/Jost: AD00076J00 / 212100337.",
-    brand: "Randon/Jost/Suspensys/Rodofort",
+    brand: "ACOPLADOS",
     group: "Resortes enroscados (suspensión de eje)",
     image: "imagesb/853.jpg"
   },
@@ -2216,8 +2216,8 @@ const productos = [
     id: 2040,
     code: "343",
     name: "Conjunto resorte de bobina de cabina delantero",
-    description: "Conjunto de resorte de bobina de cabina delantero para Ford Cargo Sleeper Cab (2011–2019).",
-    brand: "Ford",
+    description: "Conjunto de resorte de bobina de cabina delantero para FORD Cargo Sleeper Cab (2011–2019).",
+    brand: "FORD",
     group: "Resortes de bobina de cabina",
     image: "imagesb/343.jpg"
   },
@@ -2226,7 +2226,7 @@ const productos = [
     code: "833",
     name: "Resorte enroscado (suspensión eje)",
     description: "Resorte enroscado para suspensión de eje Facchini/HBZ.",
-    brand: "Facchini/HBZ",
+    brand: "ACOPLADOS",
     group: "Resortes enroscados (suspensión de eje)",
     image: "imagesb/833.jpg"
   },
@@ -2235,7 +2235,7 @@ const productos = [
     code: "362",
      name: "Conjunto resorte neumatico de cabina delantero",
     description: "Conjunto de resorte neumático de cabina delantero para IVECO Hi Way (2013–2023).",
-    brand: "Ford",
+    brand: "FORD",
     group: "Resortes ",
     image: "imagesb/362.jpg"
   },
@@ -2244,7 +2244,7 @@ const productos = [
     code: "858",
     name: "Resorte enroscado (suspensión de eje)",
     description: "Resorte enroscado para Randon/Suspensys/Guerra/America/Ibero (eje suspensor).",
-    brand: "Randon/Suspensys/Guerra/America/Ibero",
+    brand: "ACOPLADOS",
     group: "Resortes",
     image: "imagesb/858.jpg"
   },
@@ -2253,7 +2253,7 @@ const productos = [
     code: "870",
     name: "Resorte enroscado (suspensión eje)",
     description: "Resorte enroscado para suspensión de eje (Facchini/Rodofort).",
-    brand: "Facchini/Rodofort",
+    brand: "ACOPLADOS",
     group: "Resortes",
     image: "imagesb/870.jpg"
   },
