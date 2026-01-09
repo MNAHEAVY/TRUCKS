@@ -2115,8 +2115,6 @@ const productos = [
         image: "imagesb/d5453.jpg"
     }
 ]
-
-
 // ---------- Helpers ----------
 function slugify(text){
   return String(text).toLowerCase()
@@ -2203,7 +2201,7 @@ function initFilters() {
       .map(
         (brand) => `
         <label class="flex items-center">
-          <input type="checkbox" name=brand value="${escapeHtml(brand)}" class="mr-2">
+          <input type="checkbox" name="brand" value="${escapeHtml(brand)}" class="mr-2">
           ${escapeHtml(brand)}
         </label>
       `
@@ -2229,7 +2227,7 @@ function initFilters() {
 function filtrarProductos() {
   const combinedQuery = searchInputs.map(i => i.value?.toLowerCase()?.trim() || "").find(q => q.length>0) || "";
 
-  const marcasSeleccionadas = Array.from(document.querySelectorAll('input[name=brand]:checked')).map(cb => cb.value);
+  const marcasSeleccionadas = Array.from(document.querySelectorAll('input[name="brand"]:checked')).map(cb => cb.value);
   const categoriasSeleccionadas = Array.from(document.querySelectorAll('input[name="category"]:checked')).map(cb => cb.value);
 
   const filtrados = productos.filter((p) => {
@@ -2262,7 +2260,7 @@ searchButtons.forEach((btn) => {
 // ---------- Cambios en filtros (delegación segura) ----------
 document.addEventListener("change", (e) => {
   const name = e.target && e.target.name;
-  if (name === brand || name === "category") {
+  if (name === "brand" || name === "category") {
     filtrarProductos();
 
     // cerrar panel mobile si está visible (si existen referencias)
@@ -2343,11 +2341,11 @@ function injectJsonLd(productsList) {
       "url": location.origin + buildProductUrl(p),
       "item": {
         "@type": "Product",
-        name: p.name,
-        image: location.origin + '/' + (p.image || ''),
-        description: p.description || '',
+        "name": p.name,
+        "image": location.origin + '/' + (p.image || ''),
+        "description": p.description || '',
         "sku": p.code || '',
-        brand: {"@type":Brand,name: p.brand || ''},
+        "brand": {"@type":"Brand","name": p.brand || ''},
         "offers": {
           "@type":"Offer",
           "url": location.origin + buildProductUrl(p),
