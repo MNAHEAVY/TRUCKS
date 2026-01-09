@@ -1033,7 +1033,7 @@ const productos = [
     name: "MANGUERA DEL INTERCOOLER",
     description:
       "MANGUERA DEL INTERCOOLER, Mercedes-benz 1620 / 1720 / OF1721 / 1726 / 1723K / 1723S / 1938, Ø85 MM X 215 MM, OEM: 6965007375",
-    brand: "Mercedes-benz 1620 / 1720 / OF1721 / 1726 / 1723K / 1723S / 1938",
+    brand: "Mercedes-benz",
     group: "MANGUERAS",
     image: "images/93.jpg",
   },
@@ -1082,7 +1082,7 @@ const productos = [
     name: "MANGUERA DEL INTERCOOLER",
     description:
       "MANGUERA DEL INTERCOOLER, NUEVO STRALIS / STRALIS / NUEVO TRAKKER, Ø100MM X 310MM, OEM: 5801688746",
-    brand: "NUEVO STRALIS / STRALIS / NUEVO TRAKKER",
+    brand: "IVECO",
     group: "MANGUERAS",
     image: "images/98.jpg",
   },
@@ -1101,7 +1101,7 @@ const productos = [
     name: "MANGUERA DE TURBINA",
     description:
       "MANGUERA DE TURBINA, SERIE 3 111/112/113/143, Ø76MM X 100MM, OEM: 267353/ 373210",
-    brand: "SERIE 3 111/112/113/143",
+    brand: "SCANIA",
     group: "MANGUERAS",
     image: "images/101.jpg",
   },
@@ -1328,8 +1328,8 @@ const productos = [
     code: "040 B",
     name: "RESORTE NEUMÁTICO DE CABINA",
     description:
-      "RESORTE NEUMÁTICO DE CABINA, VOLVO FH 2004 A 2009 REPUESTO TRASERO ORIGINAL, OEM: 21651231",
-    brand: "VOLVO",
+      "RESORTE NEUMÁTICO DE CABINA, Volvo FH 2004 A 2009 REPUESTO TRASERO ORIGINAL, OEM: 21651231",
+    brand: "Volvo",
     group: "AMORTIGUADORES",
     image: "images/122.jpg",
   },
@@ -1398,8 +1398,8 @@ const productos = [
     code: "063",
     name: "AMORTIGUADORES DE CABINA",
     description:
-      "AMORTIGUADORES DE CABINA, VOLVO FH 1993 A 2014 / VOLVO FM 2000 A 2014 TRASERO/HORIZONTAL, OEM: 3198849 / 20960909 / 21539730",
-    brand: "VOLVO",
+      "AMORTIGUADORES DE CABINA, Volvo FH 1993 A 2014 / Volvo FM 2000 A 2014 TRASERO/HORIZONTAL, OEM: 3198849 / 20960909 / 21539730",
+    brand: "Volvo",
     group: "AMORTIGUADORES",
     image: "images/129.jpg",
   },
@@ -1408,8 +1408,8 @@ const productos = [
     code: "071",
     name: "AMORTIGUADORES DE CABINA",
     description:
-      "AMORTIGUADORES DE CABINA, VOLVO FH 1993 A 2014 / VOLVO FM 200 A 2014 / VOLVO FMX 2011 A 2014 TRASERO / HELICOIDAL, OEM: 21137458",
-    brand: "VOLVO",
+      "AMORTIGUADORES DE CABINA, Volvo FH 1993 A 2014 / Volvo FM 200 A 2014 / Volvo FMX 2011 A 2014 TRASERO / HELICOIDAL, OEM: 21137458",
+    brand: "Volvo",
     group: "AMORTIGUADORES",
     image: "images/130.jpg",
   },
@@ -1418,8 +1418,8 @@ const productos = [
     code: "095",
     name: "CONJUNTO DE RESORTE DE BOBINA DE CABINA",
     description:
-      "CONJUNTO DE RESORTE DE BOBINA DE CABINA, VOLVO FM 2000 A 2014 / FMX 2011 A 2014 TRASERO, OEM: 21137458 / 3199261, COMPONENTES: 071 + 443",
-    brand: "VOLVO",
+      "CONJUNTO DE RESORTE DE BOBINA DE CABINA, Volvo FM 2000 A 2014 / FMX 2011 A 2014 TRASERO, OEM: 21137458 / 3199261, COMPONENTES: 071 + 443",
+    brand: "Volvo",
     group: "AMORTIGUADORES",
     image: "images/131.jpg",
   },
@@ -1518,8 +1518,8 @@ const productos = [
     code: "184",
     name: "CONJUNTO DE RESORTE NEUMÁTICO DE CABINA",
     description:
-      "CONJUNTO DE RESORTE NEUMÁTICO DE CABINA, VOLVO FH 2004 A 2014 DELANTERO, OEM: 20453256 / 21111932 / 20889132, COMPONENTES: 061 + 184 B + 3019",
-    brand: "VOLVO",
+      "CONJUNTO DE RESORTE NEUMÁTICO DE CABINA, Volvo FH 2004 A 2014 DELANTERO, OEM: 20453256 / 21111932 / 20889132, COMPONENTES: 061 + 184 B + 3019",
+    brand: "Volvo",
     group: "AMORTIGUADORES",
     image: "images/141.jpg",
   },
@@ -1528,8 +1528,8 @@ const productos = [
     code: "186",
     name: "CONJUNTO DE RESORTE NEUMÁTICO DE CABINA",
     description:
-      "CONJUNTO DE RESORTE NEUMÁTICO DE CABINA, VOLVO FH 2004 A 2014 TRASERO, OEM: 21651231 / 3172985 / 20427897 / 20889134 / 22144200, COMPONENTES: 186 B",
-    brand: "VOLVO",
+      "CONJUNTO DE RESORTE NEUMÁTICO DE CABINA, Volvo FH 2004 A 2014 TRASERO, OEM: 21651231 / 3172985 / 20427897 / 20889134 / 22144200, COMPONENTES: 186 B",
+    brand: "Volvo",
     group: "AMORTIGUADORES",
     image: "images/142.jpg",
   },
@@ -1577,8 +1577,8 @@ const productos = [
     id: 115,
     code: "184 B",
     name: "RESORTE NEUMÁTICO DE CABINA",
-    description: "RESORTE NEUMÁTICO DE CABINA, VOLVO FH 2010 A 2014 DELANTERO",
-    brand: "VOLVO",
+    description: "RESORTE NEUMÁTICO DE CABINA, Volvo FH 2010 A 2014 DELANTERO",
+    brand: "Volvo",
     group: "AMORTIGUADORES",
     image: "images/147.jpg",
   },
@@ -1587,8 +1587,8 @@ const productos = [
     code: "186 B",
     name: "RESORTE NEUMÁTICO DE CABINA",
     description:
-      "RESORTE NEUMÁTICO DE CABINA, VOLVO FH 2004 A 2014 TRASERO *186 B 20: BARRA DE REPUESTO 20 MM",
-    brand: "VOLVO",
+      "RESORTE NEUMÁTICO DE CABINA, Volvo FH 2004 A 2014 TRASERO *186 B 20: BARRA DE REPUESTO 20 MM",
+    brand: "Volvo",
     group: "AMORTIGUADORES",
     image: "images/148.jpg",
   },
@@ -1780,7 +1780,7 @@ const productos = [
     code: "064",
     name: "SUSPENSIÓN DE EJE CON RESORTE DE AIRE",
     description:
-      "SUSPENSIÓN DE EJE CON RESORTE DE AIRE, VOLVO FH / FM 2004 A 2014 TRACCIÓN Y TERCER EJE (MAYOR Ø), OEM: 20582206, FIRESTONE: 950880 / 1T15LNR-6, CONTITECH: 6605 N P01, COMPONENTES: 064 K + 230 BSE KIT DE REPUESTO",
+      "SUSPENSIÓN DE EJE CON RESORTE DE AIRE, Volvo FH / FM 2004 A 2014 TRACCIÓN Y TERCER EJE (MAYOR Ø), OEM: 20582206, FIRESTONE: 950880 / 1T15LNR-6, CONTITECH: 6605 N P01, COMPONENTES: 064 K + 230 BSE KIT DE REPUESTO",
     brand: "Volvo",
     group: "SUSPENSIÓN",
     image: "images/163.jpg",
@@ -1790,7 +1790,7 @@ const productos = [
     code: "137 EEB",
     name: "EJE DE SUSPENSIÓN DE RESORTE NEUMÁTICO",
     description:
-      "EJE DE SUSPENSIÓN DE RESORTE NEUMÁTICO BASE TRACCIÓN, VOLVO FH / FM (Ø MENOR) A PARTIR DE 2004 / SUSPENSIÓN DE EJE VOLVO FH / FM A PARTIR DE 2015",
+      "EJE DE SUSPENSIÓN DE RESORTE NEUMÁTICO BASE TRACCIÓN, Volvo FH / FM (Ø MENOR) A PARTIR DE 2004 / SUSPENSIÓN DE EJE Volvo FH / FM A PARTIR DE 2015",
     brand: "Volvo",
     group: "SUSPENSIÓN",
     image: "images/164.jpg",
@@ -1820,7 +1820,7 @@ const productos = [
     code: "064 K",
     name: "SIN BASE SUSPENSIÓN DE EJE CON RESORTE DE AIRE",
     description:
-      "SIN BASE SUSPENSIÓN DE EJE CON RESORTE DE AIRE, VOLVO FH / FM 2004 A 2014 TRACCIÓN Y TERCER EJE (MAYOR Ø), OEM: 20582206, FIRESTONE: 950880 / 1T15LNR-6, CONTITECH: 6605 N P01",
+      "SIN BASE SUSPENSIÓN DE EJE CON RESORTE DE AIRE, Volvo FH / FM 2004 A 2014 TRACCIÓN Y TERCER EJE (MAYOR Ø), OEM: 20582206, FIRESTONE: 950880 / 1T15LNR-6, CONTITECH: 6605 N P01",
     brand: "Volvo",
     group: "SUSPENSIÓN",
     image: "images/167.jpg",
@@ -1830,7 +1830,7 @@ const productos = [
     code: "137 / 137 K",
     name: "SIN BASE SUSPENSIÓN DE EJE CON RESORTE DE AIRE TRACCIÓN",
     description:
-      "SIN BASE SUSPENSIÓN DE EJE CON RESORTE DE AIRE TRACCIÓN, VOLVO FH / FM 2004 A 2014 (Ø MENOR), OEM: 20582215 / 21961456, FIRESTONE: 950881 / 1T15UR-9 / W01-M58-8474, CONTINTECH: 6608 - NP01, COMPONENTES: 137 K + 137 BSE KIT DE REPUESTO",
+      "SIN BASE SUSPENSIÓN DE EJE CON RESORTE DE AIRE TRACCIÓN, Volvo FH / FM 2004 A 2014 (Ø MENOR), OEM: 20582215 / 21961456, FIRESTONE: 950881 / 1T15UR-9 / W01-M58-8474, CONTINTECH: 6608 - NP01, COMPONENTES: 137 K + 137 BSE KIT DE REPUESTO",
     brand: "Volvo",
     group: "SUSPENSIÓN",
     image: "images/168.jpg",
@@ -2334,7 +2334,7 @@ const productos = [
     code: "K1938Z",
     name: "Kit de Embrague MB/SCANIA",
     description: "Ø 430 mm. Aplicación: 1634/1938/1944/2038 (10 estrías). Referencia: 1497/5705/3377/6497.",
-    brand: "SCANIA / Mercedes-benz",
+    brand: "SCANIA",
     group: "Embragues",
     image: "imagesb/k1938z.jpg"
   },
@@ -2388,7 +2388,7 @@ const productos = [
     code: "D5346",
     name: "Disco de Embrague SCANIA/MB",
     description: "Ø 280mm según aplicación. Aplicación 1111/1113/321/609/709/710 11″ 10 estrías.",
-    brand: "SCANIA / Mercedes-benz",
+    brand: "SCANIA",
     group: "Embragues",
     image: "imagesb/d5346.jpg"
   },
