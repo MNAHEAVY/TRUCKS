@@ -6,7 +6,7 @@ const productos = [
     description:
       "Tapón del depósito de combustible. Plástico con rosca exterior. Sellado con llave - FORD Sapão 90-02 - Seat Inca 95-03 - Agrale",
     brand: "FORD",
-    group: "Tapones",
+    group: "Tapas",
     image: "images/1.webp",
   },
   {
@@ -16,7 +16,7 @@ const productos = [
     description:
       " Con trinquete sellado - Sin llave SCANIA 113 88 a 97 - Camiones GM 86 a 97 - FORD Cargo 814 96 a 01",
     brand: "FORD",
-    group: "Tapones",
+    group: "Tapas",
     image: "images/doss.webp",
   },
   {
@@ -26,7 +26,7 @@ const productos = [
     description:
       "Tapón de combustible Valvulado - Con llave - Tanque con rosca interna - VW 15-190 después de 05 / FORD F-4000 después de 05",
     brand: "Volkswagen",
-    group: "Tapones",
+    group: "Tapas",
     image: "images/trees.webp",
   },
   {
@@ -36,7 +36,7 @@ const productos = [
     description:
       "Tapón de aceite de motor Cummis.- Con anillo - Volkswagen 17-310 00 a 10 - 18-310 00 a 10 - 24-22 después de 06 - 26-220 después de 06",
     brand: "Volkswagen",
-    group: "Tapones",
+    group: "Tapas",
     image: "images/4.webp",
   },
   {
@@ -45,7 +45,7 @@ const productos = [
     name: "Tapa de Refrigeración - VALVULADA - 0,5 Bar - Mercedes-benz",
     description: "Tapa de Refrigeración - VALVULADA - 0,5 Bar - Mercedes-benz ",
     brand: "Mercedes-benz",
-    group: "Tapones",
+    group: "Tapas",
     image: "images/tres.webp",
   },
   {
@@ -54,7 +54,7 @@ const productos = [
     name: "Tapa de radiador",
     description: "Tapa de radiador 0,9 Bar Toyota Corolla",
     brand: "Toyota",
-    group: "Tapones",
+    group: "Tapas",
     image: "images/10.webp",
   },
   {
@@ -64,7 +64,7 @@ const productos = [
     description:
       "Tapón de combustible. Sellado. Con boquilla de 105 mm y llave FORD Sapão 90 al 02 - Agrale Agrale 87 al 88 - Volvo 420",
     brand: "Volvo",
-    group: "Tapones",
+    group: "Tapas",
     image: "images/11.webp",
   },
   {
@@ -74,7 +74,7 @@ const productos = [
     description:
       "Tapón de combustible. - Sellado con llave - FORD Cargo 85 a 01 F-4000 4.3 72 a 99 - Camionetas GM 86 a 97",
     brand: "FORD",
-    group: "Tapones",
+    group: "Tapas",
     image: "images/12.webp",
   },
   {
@@ -122,7 +122,7 @@ const productos = [
     name: "Tapa del depósito del lavaparabrisas",
     description: "Tapa del depósito del lavaparabrisas - Camiones Mercedes-benz 70 a 90",
     brand: "Mercedes-benz",
-    group: "Tapones",
+    group: "Tapas",
     image: "images/7.webp",
   },
   {
@@ -132,7 +132,7 @@ const productos = [
     description:
       "Tapón de depósito. - Valvulado con llave - Mercedes-benz Actros después de 10 - Axor 01 a 13",
     brand: "Mercedes-benz",
-    group: "Tapones",
+    group: "Tapas",
     image: "images/8.webp",
   },
   {
@@ -142,7 +142,7 @@ const productos = [
     description:
       "Tapón de combustible. Sellado. Con llave. Borde exterior de acero inoxidable con rosca interna - Volvo FH después de 2012 - SCANIA Serie V después de 2007",
     brand: "SCANIA",
-    group: "Tapones",
+    group: "Tapas",
     image: "images/9.webp",
   },
   {
@@ -162,7 +162,7 @@ const productos = [
     description:
       "Depósito de plástico con rosca exterior. Sellado con llave - FORD Sapão 90 a 02 - Camiones SCANIA - Agrale Agrale",
     brand: "SCANIA",
-    group: "Tapones",
+    group: "Tapas",
     image: "images/14.webp",
   },
   {
@@ -172,7 +172,7 @@ const productos = [
     description:
       "Tapón de combustible. Sellado. Con llave. Depósito de plástico. Con rosca interna - Borde alto - FORD Cargo después de 2012 - Camiones Mercedes-benz.",
     brand: "Mercedes-benz",
-    group: "Tapones",
+    group: "Tapas",
     image: "images/15.webp",
   },
   {
@@ -933,7 +933,7 @@ const productos = [
     name: "Tapón del depósito de combustible",
     description: "Tapón del depósito de combustible",
     brand: "SCANIA",
-    group: "Tapones",
+    group: "Tapas",
     image: "images/80.webp",
   },
   {
@@ -2236,7 +2236,7 @@ const productos = [
      name: "Conjunto resorte neumatico de cabina delantero",
     description: "Conjunto de resorte neumático de cabina delantero para IVECO Hi Way (2013–2023).",
     brand: "FORD",
-    group: "RESORTES ",
+    group: "RESORTES",
     image: "imagesb/362.jpg"
   },
  {
